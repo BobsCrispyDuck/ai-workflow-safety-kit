@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Updated the roadmap.
 - Added public support guidance.
 - Added feedback links to the sharing guide.
 - Added direct feedback issue links.

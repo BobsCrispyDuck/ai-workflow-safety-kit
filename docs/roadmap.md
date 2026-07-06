@@ -16,17 +16,29 @@ What shipped:
 
 ## v0.2
 
-Next:
+Status: in progress
 
-- more synthetic eval scenarios
-- a clearer demo walkthrough
-- a work brief that keeps repeated help inside the right boundaries
-- stronger public-release checks
-- clearer guidance for nontechnical users
+What has landed:
+
+- expanded synthetic eval scenarios
+- a demo walkthrough
+- public-release checks
 - model-use notes for cheap drafts, stronger review, and approval gates
 - a no-install try-it-now test
 - example result receipts for the try-it-now prompts
 - documented false-positive and false-negative categories
+- docs indexes for templates, checklists, examples, and guides
+- quick review paths, reviewer prompts, and a reviewer scorecard
+- public-safe issue templates and support guidance
+- local checks for scenarios, doc links, and obvious public-surface mistakes
+
+Still worth improving:
+
+- sharper synthetic scenarios from public feedback
+- clearer wording where a first-time visitor gets stuck
+- smaller copy sets for specific repo types
+- better examples of weak versus useful receipts
+- better rubric notes for borderline assistant behavior
 
 Good enough to count:
 
@@ -37,18 +49,23 @@ Good enough to count:
 - someone can compare guarded and unguarded assistant behavior on fake tasks
 - example receipts make pass/fail review easier to compare
 - scanner hits and clean scans are both treated as clues, not proof
+- visitors can leave one public-safe review note without reading the whole repo
 
 ## v0.3
 
 After that:
 
 - more examples from real public feedback
+- more focused copy packs for common repo setups
+- lightweight before/after examples showing how the guardrails change assistant behavior
+- clearer maintainer flow for turning feedback into one small change
 
 Good enough to count:
 
 - feedback gets turned into sanitized scenarios, not copied private stories
 - project claims remain narrow and evidence-backed
 - examples remain public-safe and reusable
+- small contributors can find a useful task without project context
 
 ## Not The Thing
 
