@@ -43,6 +43,8 @@ Start with the shortest path that matches what you need.
 
 ## Templates And Checks
 
+- `templates/README.md` - choose the right template
+
 Core templates live in `templates/`.
 
 Local checks:

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a template index.
 - Added an examples index.
 - Added a docs index.
 - Added an eval coverage map.

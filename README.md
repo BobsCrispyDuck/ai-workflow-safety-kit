@@ -20,6 +20,10 @@ If you only copy three things, copy these:
 2. `templates/project-root-check.md`
 3. `templates/private-public-data-split.md`
 
+Template guide:
+
+`templates/README.md`
+
 Then try the two-minute walkthrough:
 
 `docs/demo-walkthrough.md`
@@ -107,6 +111,7 @@ If you are about to publish something, use:
 ## What This Kit Includes
 
 - reusable templates for session setup, root checks, data boundaries, approval gates, receipts, and final audits
+- a template index for choosing the right pause point
 - a public-release check for the last pause before something leaves your machine
 - checklists for editing, submitting, publishing, and using shared-token projects
 - synthetic examples that show safe, blocked, and approval-needed tasks
@@ -158,28 +163,29 @@ Do not add:
 1. Start with `templates/work-session-check.md`.
 2. Read `templates/project-root-check.md`.
 3. Read `templates/private-public-data-split.md`.
-4. Browse `docs/README.md`.
-5. Try `docs/try-it-now.md`.
-6. Compare against `docs/example-result-receipts.md`.
-7. Read `examples/README.md`.
-8. Read `docs/quick-review.md`.
-9. Read `docs/review-paths.md`.
-10. Try `docs/reviewer-prompts.md`.
-11. Read `docs/review-feedback-examples.md`.
-12. Read `docs/response-snippets.md`.
-13. Read `docs/first-good-issues.md`.
-14. Read `docs/false-positives-and-misses.md`.
-15. Read `docs/known-limits.md`.
-16. Read `docs/demo-walkthrough.md`.
-17. Read `docs/scenario-writing.md`.
-18. Read `evals/coverage.md`.
-19. Run `python scripts/check-scenarios.py`.
-20. Run `python scripts/check-links.py`.
-21. Run `python scripts/check-all.py`.
-22. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-23. Use `templates/approval-gate.md` before external or irreversible action.
-24. Use `templates/verification-receipt.md` after a task.
-25. Use `templates/final-audit.md` before calling a larger goal complete.
+4. Read `templates/README.md`.
+5. Browse `docs/README.md`.
+6. Try `docs/try-it-now.md`.
+7. Compare against `docs/example-result-receipts.md`.
+8. Read `examples/README.md`.
+9. Read `docs/quick-review.md`.
+10. Read `docs/review-paths.md`.
+11. Try `docs/reviewer-prompts.md`.
+12. Read `docs/review-feedback-examples.md`.
+13. Read `docs/response-snippets.md`.
+14. Read `docs/first-good-issues.md`.
+15. Read `docs/false-positives-and-misses.md`.
+16. Read `docs/known-limits.md`.
+17. Read `docs/demo-walkthrough.md`.
+18. Read `docs/scenario-writing.md`.
+19. Read `evals/coverage.md`.
+20. Run `python scripts/check-scenarios.py`.
+21. Run `python scripts/check-links.py`.
+22. Run `python scripts/check-all.py`.
+23. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+24. Use `templates/approval-gate.md` before external or irreversible action.
+25. Use `templates/verification-receipt.md` after a task.
+26. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
