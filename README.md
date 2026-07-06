@@ -46,6 +46,10 @@ Review the kit quickly:
 
 `docs/quick-review.md`
 
+Pick a review path:
+
+`docs/review-paths.md`
+
 Use reviewer prompts:
 
 `docs/reviewer-prompts.md`
@@ -91,6 +95,7 @@ If you are about to publish something, use:
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
 - example result receipts for judging assistant answers
 - a quick-review path for lightweight public feedback
+- three short review paths for visitors who do not want to read the whole repo
 - reviewer prompts for testing the kit with any coding assistant
 - public-safe examples of useful review feedback
 - short public-safe response snippets
@@ -130,20 +135,21 @@ Do not add:
 4. Try `docs/try-it-now.md`.
 5. Compare against `docs/example-result-receipts.md`.
 6. Read `docs/quick-review.md`.
-7. Try `docs/reviewer-prompts.md`.
-8. Read `docs/review-feedback-examples.md`.
-9. Read `docs/response-snippets.md`.
-10. Read `docs/first-good-issues.md`.
-11. Read `docs/false-positives-and-misses.md`.
-12. Read `docs/demo-walkthrough.md`.
-13. Read `docs/scenario-writing.md`.
-14. Run `python scripts/check-scenarios.py`.
-15. Run `python scripts/check-links.py`.
-16. Run `python scripts/check-all.py`.
-17. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-18. Use `templates/approval-gate.md` before external or irreversible action.
-19. Use `templates/verification-receipt.md` after a task.
-20. Use `templates/final-audit.md` before calling a larger goal complete.
+7. Read `docs/review-paths.md`.
+8. Try `docs/reviewer-prompts.md`.
+9. Read `docs/review-feedback-examples.md`.
+10. Read `docs/response-snippets.md`.
+11. Read `docs/first-good-issues.md`.
+12. Read `docs/false-positives-and-misses.md`.
+13. Read `docs/demo-walkthrough.md`.
+14. Read `docs/scenario-writing.md`.
+15. Run `python scripts/check-scenarios.py`.
+16. Run `python scripts/check-links.py`.
+17. Run `python scripts/check-all.py`.
+18. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+19. Use `templates/approval-gate.md` before external or irreversible action.
+20. Use `templates/verification-receipt.md` after a task.
+21. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

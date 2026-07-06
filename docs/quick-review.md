@@ -4,6 +4,8 @@ If you have five minutes, do not read everything.
 
 Look for one place where the kit would have helped you slow down, or one place where it still feels vague.
 
+If you want a narrower route, use `docs/review-paths.md`.
+
 ## Fast Path
 
 1. Read `README.md`.

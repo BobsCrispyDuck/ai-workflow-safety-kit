@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added short review paths for visitors.
 - Added first-good-issue notes for small public-safe contributions.
 - Added public-safe response snippets.
 - Added public-safe review feedback examples.
