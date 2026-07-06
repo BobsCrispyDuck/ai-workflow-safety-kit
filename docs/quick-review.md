@@ -64,6 +64,10 @@ More examples:
 
 `docs/review-feedback-examples.md`
 
+Known limits:
+
+`docs/known-limits.md`
+
 Public reply snippets:
 
 `docs/response-snippets.md`
