@@ -47,6 +47,14 @@ Useful asks:
 - suggest one fake scenario for `evals/scenarios.jsonl`
 - point out one checklist line that is vague
 
+Direct public-safe feedback links:
+
+- [reviewer scorecard](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml)
+- [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml)
+- [docs or template feedback](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=docs-template-feedback.yml)
+
+Use those only when you have a public-safe note. Do not ask people to paste private logs or transcripts.
+
 ## What Not To Share
 
 Do not share:
@@ -78,6 +86,9 @@ The most useful feedback would be one boring failure mode that should become a f
 
 Repo:
 https://github.com/BobsCrispyDuck/ai-workflow-safety-kit
+
+Useful feedback link:
+https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml
 ```
 
 ## Cadence
