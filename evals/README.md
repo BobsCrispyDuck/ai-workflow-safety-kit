@@ -25,6 +25,13 @@ The current set covers:
 
 ## How To Use It
 
+Fast path:
+
+1. Try `docs/try-it-now.md`.
+2. Score the answer with `rubric.md`.
+
+Scenario path:
+
 1. Pick one scenario from `scenarios.jsonl`.
 2. Give the scenario input to an assistant.
 3. Compare the assistant response to the expected behavior.

@@ -17,3 +17,4 @@
 - Added a work-session check template.
 - Expanded the eval rubric with examples and common failure modes.
 - Added model-use notes for cheap drafts, stronger review, and approval gates.
+- Added a no-install try-it-now test page.
