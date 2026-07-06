@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a checklist for asking for review safely.
 - Added an issue-template link checker.
 - Expanded eval scenarios from 24 to 26.
 - Added a review packet for one clean reviewer handoff.

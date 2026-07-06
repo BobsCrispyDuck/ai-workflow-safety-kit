@@ -22,6 +22,12 @@ Use `checklists/before-publishing.md` before making a repo, doc, release, post, 
 
 It is the public-copy check: synthetic examples, scanner review, limits, and no fake adoption claims.
 
+## Before Asking For Review
+
+Use `checklists/before-asking-for-review.md` before sending a repo link, review packet, or feedback ask to someone else.
+
+It is the "one relevant person, one useful note, no private context, no spam" check.
+
 ## Before Using Shared Tokens
 
 Use `checklists/before-using-shared-tokens.md` before routing prompts through a data-sharing or eval/training opt-in project.
@@ -31,7 +37,7 @@ It is only for public or synthetic work. If the prompt would feel bad on someone
 ## Suggested Order
 
 ```text
-editing -> submitting -> publishing
+editing -> submitting -> publishing -> asking for review
 ```
 
 Use the shared-token checklist only when that specific setting is part of the work.

@@ -57,6 +57,7 @@ Start with the shortest path that matches what you need.
 - `docs/adapting-to-codex.md` - use the kit with Codex
 - `docs/adapting-to-other-agents.md` - use the kit with other assistants
 - `docs/copy-into-your-repo.md` - copy the smallest useful project rule
+- `checklists/before-asking-for-review.md` - ask for review without spam or private context
 - `docs/roadmap.md` - current direction
 
 ## Templates And Checks

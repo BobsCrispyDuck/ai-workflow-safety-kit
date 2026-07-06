@@ -108,6 +108,10 @@ Checklist guide:
 
 `checklists/README.md`
 
+Before asking for review:
+
+`checklists/before-asking-for-review.md`
+
 Then try the two-minute walkthrough:
 
 `docs/demo-walkthrough.md`
@@ -255,6 +259,7 @@ If you are about to publish something, use:
 - a template index for choosing the right pause point
 - a public-release check for the last pause before something leaves your machine
 - checklists for editing, submitting, publishing, and using shared-token projects
+- a checklist for asking one relevant person for review without spam or private context
 - a checklist index for choosing the right pre-action pause
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior

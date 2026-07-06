@@ -4,6 +4,8 @@ Use this when asking one relevant person or small group to look at the repo.
 
 Do not mass-send it. Do not drop it into unrelated channels. Do not ask for private stories.
 
+Before sending, use `checklists/before-asking-for-review.md`.
+
 ## Short Ask
 
 ```text
