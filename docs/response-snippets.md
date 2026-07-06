@@ -49,3 +49,15 @@ Handled in the public docs/evals with synthetic details only.
 
 I also ran the local checks before pushing.
 ```
+
+## Sharing The Repo
+
+```text
+If you share it, one focused note is better than a link drop.
+
+The most useful ask is: what boring failure mode is missing?
+```
+
+More:
+
+`docs/sharing-guide.md`

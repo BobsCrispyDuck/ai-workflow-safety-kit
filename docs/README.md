@@ -29,6 +29,7 @@ Start with the shortest path that matches what you need.
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note
 - `docs/first-good-issues.md` - small places to contribute
+- `docs/sharing-guide.md` - share the repo without spammy link drops
 
 ## Writing Or Changing Scenarios
 

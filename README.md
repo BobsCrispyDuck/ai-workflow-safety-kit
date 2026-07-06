@@ -96,6 +96,10 @@ Use response snippets:
 
 `docs/response-snippets.md`
 
+Share it safely:
+
+`docs/sharing-guide.md`
+
 Find a small contribution:
 
 `docs/first-good-issues.md`
@@ -144,6 +148,7 @@ If you are about to publish something, use:
 - a reviewer scorecard for reporting one small test
 - public-safe examples of useful review feedback
 - short public-safe response snippets
+- a sharing guide for low-noise public posts
 - first-good-issue notes for small public-safe contributions
 - false-positive and false-negative guidance for reviewing scanner results
 - known limits so the project does not overclaim
@@ -191,19 +196,20 @@ Do not add:
 14. Use `docs/reviewer-scorecard.md`.
 15. Read `docs/review-feedback-examples.md`.
 16. Read `docs/response-snippets.md`.
-17. Read `docs/first-good-issues.md`.
-18. Read `docs/false-positives-and-misses.md`.
-19. Read `docs/known-limits.md`.
-20. Read `docs/demo-walkthrough.md`.
-21. Read `docs/scenario-writing.md`.
-22. Read `evals/coverage.md`.
-23. Run `python scripts/check-scenarios.py`.
-24. Run `python scripts/check-links.py`.
-25. Run `python scripts/check-all.py`.
-26. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-27. Use `templates/approval-gate.md` before external or irreversible action.
-28. Use `templates/verification-receipt.md` after a task.
-29. Use `templates/final-audit.md` before calling a larger goal complete.
+17. Read `docs/sharing-guide.md`.
+18. Read `docs/first-good-issues.md`.
+19. Read `docs/false-positives-and-misses.md`.
+20. Read `docs/known-limits.md`.
+21. Read `docs/demo-walkthrough.md`.
+22. Read `docs/scenario-writing.md`.
+23. Read `evals/coverage.md`.
+24. Run `python scripts/check-scenarios.py`.
+25. Run `python scripts/check-links.py`.
+26. Run `python scripts/check-all.py`.
+27. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+28. Use `templates/approval-gate.md` before external or irreversible action.
+29. Use `templates/verification-receipt.md` after a task.
+30. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a sharing guide.
 - Added a reviewer scorecard.
 - Expanded eval scenarios from 20 to 22.
 - Expanded eval scenarios from 16 to 20.
