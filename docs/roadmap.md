@@ -23,12 +23,14 @@ Next:
 - a work brief that keeps repeated help inside the right boundaries
 - stronger public-release checks
 - clearer guidance for nontechnical users
+- model-use notes for cheap drafts, stronger review, and approval gates
 
 Good enough to count:
 
 - a new user can copy the quick start without needing a meeting about it
 - eval scenarios cover safe, blocked, and approval-needed cases
 - public release checks catch private data before publishing
+- model-use guidance keeps public/synthetic drafting separate from risky review
 
 ## v0.3
 
@@ -36,7 +38,6 @@ After that:
 
 - example result receipts
 - a simple manual test protocol
-- model-use notes for low-cost scenario generation and higher-quality audits
 - documented false-positive and false-negative categories
 
 Good enough to count:

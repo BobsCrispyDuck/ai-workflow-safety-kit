@@ -33,6 +33,7 @@ If you are about to publish something, use:
 - checklists for editing, submitting, publishing, and using shared-token projects
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior
+- model-use notes for matching cheap drafts, stronger review, and approval gates
 - short adaptation notes for Codex and other AI coding agents
 
 ## What This Kit Is Not
@@ -62,9 +63,10 @@ Do not add:
 2. Read `templates/project-root-check.md`.
 3. Read `templates/private-public-data-split.md`.
 4. Try `docs/demo-walkthrough.md`.
-5. Use `templates/approval-gate.md` before external or irreversible action.
-6. Use `templates/verification-receipt.md` after a task.
-7. Use `templates/final-audit.md` before calling a larger goal complete.
+5. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+6. Use `templates/approval-gate.md` before external or irreversible action.
+7. Use `templates/verification-receipt.md` after a task.
+8. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
