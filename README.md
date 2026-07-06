@@ -200,6 +200,10 @@ Use the reviewer scorecard:
 
 `docs/reviewer-scorecard.md`
 
+Score one eval scenario:
+
+`docs/eval-scorecard.md`
+
 Pick an issue template:
 
 `docs/issue-guide.md`

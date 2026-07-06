@@ -23,6 +23,7 @@ Start with the shortest path that matches what you need.
 
 - `docs/reviewer-prompts.md` - prompts for testing with a coding assistant
 - `docs/reviewer-scorecard.md` - copy/paste scorecard for one small test
+- `docs/eval-scorecard.md` - copy/paste scorecard for one eval scenario
 - `docs/example-result-receipts.md` - examples of good and weak receipts
 - `examples/README.md` - fake task examples
 - `evals/coverage.md` - what the current synthetic scenarios cover
@@ -49,6 +50,7 @@ Start with the shortest path that matches what you need.
 - `docs/scenario-writing.md` - write fake-but-useful scenarios
 - `evals/scenarios.jsonl` - current synthetic scenarios
 - `evals/coverage.md` - thin spots worth filling
+- `docs/eval-scorecard.md` - score one scenario without overthinking it
 
 ## Safety And Scope
 

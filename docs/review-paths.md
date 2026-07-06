@@ -30,6 +30,10 @@ Use:
 
 `evals/scenarios.jsonl`
 
+Optional scorecard:
+
+`docs/eval-scorecard.md`
+
 Look for one missing failure mode. The best additions are boring:
 
 - stale branch

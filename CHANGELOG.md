@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added an eval scorecard for one-scenario review.
 - Added rubric notes for visibility-safety scenarios.
 - Added a checklist for asking for review safely.
 - Added an issue-template link checker.
