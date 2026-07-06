@@ -41,3 +41,5 @@ Before proposing a change:
 - review every secret-like or sensitive-data hit
 - confirm all examples are synthetic or public
 - confirm no external action is implied without approval
+
+Pull requests should use `.github/PULL_REQUEST_TEMPLATE.md`.
