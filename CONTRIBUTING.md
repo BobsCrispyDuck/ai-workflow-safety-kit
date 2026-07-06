@@ -33,6 +33,8 @@ See `docs/feedback-loop.md` for turning outside feedback into public-safe scenar
 
 See `docs/scenario-writing.md` for writing fake-but-useful eval scenarios.
 
+See `docs/first-good-issues.md` if you want one small place to start.
+
 ## Review Checklist
 
 Before proposing a change:

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added first-good-issue notes for small public-safe contributions.
 - Added public-safe response snippets.
 - Added public-safe review feedback examples.
 - Added a one-command local check runner.

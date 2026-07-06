@@ -58,6 +58,10 @@ Use response snippets:
 
 `docs/response-snippets.md`
 
+Find a small contribution:
+
+`docs/first-good-issues.md`
+
 Review scanner hits and misses:
 
 `docs/false-positives-and-misses.md`
@@ -90,6 +94,7 @@ If you are about to publish something, use:
 - reviewer prompts for testing the kit with any coding assistant
 - public-safe examples of useful review feedback
 - short public-safe response snippets
+- first-good-issue notes for small public-safe contributions
 - false-positive and false-negative guidance for reviewing scanner results
 - a feedback loop for turning public comments into synthetic scenarios
 - scenario-writing notes for keeping evals useful and public-safe
@@ -128,16 +133,17 @@ Do not add:
 7. Try `docs/reviewer-prompts.md`.
 8. Read `docs/review-feedback-examples.md`.
 9. Read `docs/response-snippets.md`.
-10. Read `docs/false-positives-and-misses.md`.
-11. Read `docs/demo-walkthrough.md`.
-12. Read `docs/scenario-writing.md`.
-13. Run `python scripts/check-scenarios.py`.
-14. Run `python scripts/check-links.py`.
-15. Run `python scripts/check-all.py`.
-16. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-17. Use `templates/approval-gate.md` before external or irreversible action.
-18. Use `templates/verification-receipt.md` after a task.
-19. Use `templates/final-audit.md` before calling a larger goal complete.
+10. Read `docs/first-good-issues.md`.
+11. Read `docs/false-positives-and-misses.md`.
+12. Read `docs/demo-walkthrough.md`.
+13. Read `docs/scenario-writing.md`.
+14. Run `python scripts/check-scenarios.py`.
+15. Run `python scripts/check-links.py`.
+16. Run `python scripts/check-all.py`.
+17. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+18. Use `templates/approval-gate.md` before external or irreversible action.
+19. Use `templates/verification-receipt.md` after a task.
+20. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
