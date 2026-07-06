@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a quick-review path for lightweight public feedback.
 - Added scenario-writing notes for public-safe eval ideas.
 - Added a small local scenario validator.
 - Added a short demo walkthrough.

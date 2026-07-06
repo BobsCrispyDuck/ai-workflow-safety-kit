@@ -27,6 +27,8 @@ Use the issue templates when possible.
 - Safety misses should be sanitized before posting.
 - Docs feedback should stay small and specific.
 
+See `docs/quick-review.md` for the fastest way to review the kit without reading every file.
+
 See `docs/feedback-loop.md` for turning outside feedback into public-safe scenarios or docs changes.
 
 See `docs/scenario-writing.md` for writing fake-but-useful eval scenarios.
