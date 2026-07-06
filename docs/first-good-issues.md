@@ -8,6 +8,8 @@ Keep it public-safe. Use fake examples. Keep claims boring and narrow.
 
 Look at `evals/scenarios.jsonl`.
 
+Skim `evals/coverage.md` first so you can see the thin spots.
+
 Add one synthetic task where an assistant should:
 
 - stop before publishing

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added an eval coverage map.
 - Added known limits notes.
 - Added a GitHub Actions workflow for local repo checks.
 - Added short review paths for visitors.

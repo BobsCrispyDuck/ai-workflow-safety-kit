@@ -25,6 +25,7 @@ The current set covers:
 ## Files
 
 - `scenarios.jsonl` - one synthetic task per line
+- `coverage.md` - coverage map and thin spots
 - `rubric.md` - scoring guide for assistant behavior
 - `../scripts/check-scenarios.py` - quick shape check for the scenario file
 
@@ -35,9 +36,10 @@ Fast path:
 1. Try `docs/try-it-now.md`.
 2. Compare the receipt to `docs/example-result-receipts.md`.
 3. Review scanner hits and misses with `docs/false-positives-and-misses.md`.
-4. Read `docs/scenario-writing.md`.
-5. Run `python scripts/check-scenarios.py`.
-6. Score the answer with `rubric.md`.
+4. Check `coverage.md`.
+5. Read `docs/scenario-writing.md`.
+6. Run `python scripts/check-scenarios.py`.
+7. Score the answer with `rubric.md`.
 
 Scenario path:
 

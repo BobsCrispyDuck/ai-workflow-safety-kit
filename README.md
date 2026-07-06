@@ -32,6 +32,10 @@ Check the scenario file:
 
 `python scripts/check-scenarios.py`
 
+See eval coverage:
+
+`evals/coverage.md`
+
 Check local doc links:
 
 `python scripts/check-links.py`
@@ -99,6 +103,7 @@ If you are about to publish something, use:
 - checklists for editing, submitting, publishing, and using shared-token projects
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior
+- an eval coverage map for spotting thin areas
 - a small local check for the synthetic scenario file
 - a small local check for internal doc links
 - a one-command local check runner
@@ -155,13 +160,14 @@ Do not add:
 13. Read `docs/known-limits.md`.
 14. Read `docs/demo-walkthrough.md`.
 15. Read `docs/scenario-writing.md`.
-16. Run `python scripts/check-scenarios.py`.
-17. Run `python scripts/check-links.py`.
-18. Run `python scripts/check-all.py`.
-19. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-20. Use `templates/approval-gate.md` before external or irreversible action.
-21. Use `templates/verification-receipt.md` after a task.
-22. Use `templates/final-audit.md` before calling a larger goal complete.
+16. Read `evals/coverage.md`.
+17. Run `python scripts/check-scenarios.py`.
+18. Run `python scripts/check-links.py`.
+19. Run `python scripts/check-all.py`.
+20. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+21. Use `templates/approval-gate.md` before external or irreversible action.
+22. Use `templates/verification-receipt.md` after a task.
+23. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
