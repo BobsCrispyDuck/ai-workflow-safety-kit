@@ -19,6 +19,7 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | copy the guardrails into your own workflow | `docs/one-page-kit.md` |
 | add the kit to an existing repo | `docs/copy-into-your-repo.md` |
 | understand the repo fast | `docs/repo-tour.md` |
+| check current repo health | `docs/repo-health.md` |
 | test the kit with an assistant | `docs/try-it-now.md` |
 | send one clean review handoff | `docs/review-packet.md` |
 | leave one useful review note | `docs/reviewer-brief.md` |
@@ -180,6 +181,10 @@ Review the kit quickly:
 
 `docs/quick-review.md`
 
+Check repo health:
+
+`docs/repo-health.md`
+
 Send a review packet:
 
 `docs/review-packet.md`
@@ -276,6 +281,7 @@ If you are about to publish something, use:
 - a one-command local check runner
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
 - a repo tour for time-boxed review paths
+- a repo-health note for checking what the public branch verifies
 - a docs index for finding the right review or feedback path
 - a FAQ for quick orientation
 - a starter pack for choosing what to copy

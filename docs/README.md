@@ -6,6 +6,7 @@ Start with the shortest path that matches what you need.
 
 - `docs/demo-walkthrough.md` - two-minute walkthrough
 - `docs/repo-tour.md` - time-boxed paths through the repo
+- `docs/repo-health.md` - what the public branch checks before pushing
 - `docs/faq.md` - quick answers for new visitors
 - `docs/starter-pack.md` - choose the smallest set of files to copy
 - `docs/copy-into-your-repo.md` - adopt the smallest useful rules in another repo
@@ -55,6 +56,7 @@ Start with the shortest path that matches what you need.
 ## Safety And Scope
 
 - `docs/false-positives-and-misses.md` - review scanner hits and clean-scan misses
+- `docs/repo-health.md` - what the public branch checks and what those checks do not prove
 - `docs/model-use-plan.md` - match model strength to task risk
 - `docs/adapting-to-codex.md` - use the kit with Codex
 - `docs/adapting-to-other-agents.md` - use the kit with other assistants

@@ -10,6 +10,8 @@ If you are sending the repo to someone else, use `docs/reviewer-brief.md`.
 
 If you only know how much time you have, use `docs/repo-tour.md`.
 
+If you want to know what the public branch checks, use `docs/repo-health.md`.
+
 ## Fast Path
 
 1. Read `README.md`.
