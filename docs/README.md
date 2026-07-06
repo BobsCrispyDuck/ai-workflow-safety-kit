@@ -15,6 +15,7 @@ Start with the shortest path that matches what you need.
 ## Testing The Kit
 
 - `docs/reviewer-prompts.md` - prompts for testing with a coding assistant
+- `docs/reviewer-scorecard.md` - copy/paste scorecard for one small test
 - `docs/example-result-receipts.md` - examples of good and weak receipts
 - `examples/README.md` - fake task examples
 - `evals/coverage.md` - what the current synthetic scenarios cover
@@ -23,6 +24,7 @@ Start with the shortest path that matches what you need.
 
 ## Giving Feedback
 
+- `docs/reviewer-scorecard.md` - short report format after trying a prompt
 - `docs/review-feedback-examples.md` - useful public-safe feedback examples
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note

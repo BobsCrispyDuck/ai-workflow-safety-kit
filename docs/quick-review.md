@@ -11,9 +11,10 @@ If you want a narrower route, use `docs/review-paths.md`.
 1. Read `README.md`.
 2. Try `docs/try-it-now.md`.
 3. Try one prompt from `docs/reviewer-prompts.md`.
-4. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
-5. Skim `evals/scenarios.jsonl`.
-6. Open the issue template that fits:
+4. Fill out `docs/reviewer-scorecard.md`.
+5. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
+6. Skim `evals/scenarios.jsonl`.
+7. Open the issue template that fits:
    - scenario idea
    - safety miss
    - docs/template feedback
@@ -63,6 +64,10 @@ No ceremony needed.
 More examples:
 
 `docs/review-feedback-examples.md`
+
+Scorecard:
+
+`docs/reviewer-scorecard.md`
 
 Known limits:
 

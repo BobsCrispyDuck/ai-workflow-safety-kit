@@ -91,3 +91,7 @@ One scenario or checklist line I would add:
 ```
 
 If the answer includes private details, do not post it. Rewrite it as a fake example first.
+
+For a copy/paste version, use:
+
+`docs/reviewer-scorecard.md`
