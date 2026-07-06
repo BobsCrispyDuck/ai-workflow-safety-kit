@@ -24,6 +24,21 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | suggest a small public-safe change | `docs/first-good-issues.md` |
 | handle feedback as maintainer | `docs/maintainer-checklist.md` |
 
+## What Would Help Most
+
+If you are looking at this repo cold, the best feedback is one small miss.
+
+Useful notes:
+
+- a failure mode the scenarios do not cover
+- a checklist line that feels vague
+- a place where the repo sounds too confident
+- a path that took too long to find
+
+No private logs or transcripts needed. A fake version is better.
+
+Start with `docs/reviewer-brief.md` or open the reviewer scorecard issue template.
+
 ## Who This Helps
 
 Good fit:

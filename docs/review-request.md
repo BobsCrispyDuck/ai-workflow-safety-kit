@@ -13,7 +13,7 @@ https://github.com/BobsCrispyDuck/ai-workflow-safety-kit
 
 If you have 10 minutes, I would rather get one missing failure mode than a general thumbs-up.
 
-The quickest path is docs/repo-tour.md.
+The quickest path is the "What Would Help Most" section in the README or docs/reviewer-brief.md.
 ```
 
 ## More Specific Ask
@@ -29,7 +29,10 @@ Repo:
 https://github.com/BobsCrispyDuck/ai-workflow-safety-kit
 
 Useful starting point:
-docs/repo-tour.md
+README.md
+
+Or, if you want the short review format:
+docs/reviewer-brief.md
 ```
 
 ## When To Use It
