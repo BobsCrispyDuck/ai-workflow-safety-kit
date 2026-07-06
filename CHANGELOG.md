@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added an examples index.
 - Added a docs index.
 - Added an eval coverage map.
 - Added known limits notes.

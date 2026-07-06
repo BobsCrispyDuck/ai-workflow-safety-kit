@@ -15,6 +15,7 @@ Start with the shortest path that matches what you need.
 
 - `docs/reviewer-prompts.md` - prompts for testing with a coding assistant
 - `docs/example-result-receipts.md` - examples of good and weak receipts
+- `examples/README.md` - fake task examples
 - `evals/coverage.md` - what the current synthetic scenarios cover
 - `evals/README.md` - how to use the eval folder
 - `evals/rubric.md` - scoring guide
