@@ -19,10 +19,10 @@ If you only know how much time you have, use `docs/repo-tour.md`.
 5. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
 6. Skim `evals/scenarios.jsonl`.
 7. Open the issue template that fits:
-   - reviewer scorecard
-   - scenario idea
-   - safety miss
-   - docs/template feedback
+   - [reviewer scorecard](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml)
+   - [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml)
+   - [safety miss](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=safety-miss.yml)
+   - [docs/template feedback](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=docs-template-feedback.yml)
 
 ## What To Look For
 

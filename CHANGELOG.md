@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added direct feedback issue links to review docs.
 - Tightened the README quick start.
 - Updated the roadmap.
 - Added public support guidance.
