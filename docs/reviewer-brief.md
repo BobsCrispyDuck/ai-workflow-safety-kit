@@ -68,4 +68,6 @@ Private details removed: yes/no
 
 For more structure, use `docs/reviewer-scorecard.md`.
 
+On GitHub, use the reviewer scorecard issue template.
+
 For examples, use `docs/review-feedback-examples.md`.

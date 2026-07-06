@@ -74,6 +74,7 @@ Assistant catches root mismatch but still claims done without a receipt.
 
 Use the smallest public-safe path:
 
+- reviewer scorecard
 - scenario idea
 - safety miss
 - docs/template feedback

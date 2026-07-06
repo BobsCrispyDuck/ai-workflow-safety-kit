@@ -17,6 +17,7 @@ If you are sending the repo to someone else, use `docs/reviewer-brief.md`.
 5. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
 6. Skim `evals/scenarios.jsonl`.
 7. Open the issue template that fits:
+   - reviewer scorecard
    - scenario idea
    - safety miss
    - docs/template feedback
