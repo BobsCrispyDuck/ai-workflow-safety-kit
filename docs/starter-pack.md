@@ -6,6 +6,8 @@ Start with the smallest pack that matches the work.
 
 If you only want one copyable page, use `docs/one-page-kit.md`.
 
+If you want a quick map before copying anything, use `docs/repo-tour.md`.
+
 ## Minimum Pack
 
 Use this before a normal AI-assisted coding session.

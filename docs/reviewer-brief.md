@@ -4,6 +4,8 @@ If someone sent you this repo, you do not need to read the whole thing.
 
 The best review is one small note about where an assistant should slow down and does not.
 
+If you want a time-boxed path first, use `docs/repo-tour.md`.
+
 ## The Ask
 
 Try one thing and send back one useful miss.

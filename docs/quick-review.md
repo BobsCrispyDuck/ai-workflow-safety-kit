@@ -8,6 +8,8 @@ If you want a narrower route, use `docs/review-paths.md`.
 
 If you are sending the repo to someone else, use `docs/reviewer-brief.md`.
 
+If you only know how much time you have, use `docs/repo-tour.md`.
+
 ## Fast Path
 
 1. Read `README.md`.

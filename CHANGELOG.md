@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a repo tour.
 - Added a triage guide.
 - Added an issue guide.
 - Added a reviewer scorecard issue template.

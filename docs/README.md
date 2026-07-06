@@ -5,6 +5,7 @@ Start with the shortest path that matches what you need.
 ## New Here
 
 - `docs/demo-walkthrough.md` - two-minute walkthrough
+- `docs/repo-tour.md` - time-boxed paths through the repo
 - `docs/faq.md` - quick answers for new visitors
 - `docs/starter-pack.md` - choose the smallest set of files to copy
 - `docs/one-page-kit.md` - copy the core rails on one page
