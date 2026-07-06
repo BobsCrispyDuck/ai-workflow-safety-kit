@@ -5,6 +5,7 @@ Start with the shortest path that matches what you need.
 ## New Here
 
 - `docs/demo-walkthrough.md` - two-minute walkthrough
+- `docs/faq.md` - quick answers for new visitors
 - `docs/use-cases.md` - where the kit fits in real workflow moments
 - `docs/try-it-now.md` - no-install test prompt
 - `docs/quick-review.md` - five-minute review path
