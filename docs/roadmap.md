@@ -20,7 +20,7 @@ Next:
 
 - more synthetic eval scenarios
 - a clearer demo walkthrough
-- a daily-agent brief template for repeated assistant work
+- a work-session brief that keeps repeated help inside the right boundaries
 - stronger public-release checks
 - clearer guidance for nontechnical users
 
@@ -49,5 +49,5 @@ Good enough to count:
 
 - real secrets, logs, or private repository content
 - offensive security testing
-- account, billing, or production automation
+- account, billing, or production tooling
 - pretending this guarantees safety
