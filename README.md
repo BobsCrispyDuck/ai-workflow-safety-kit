@@ -23,6 +23,23 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | suggest a small public-safe change | `docs/first-good-issues.md` |
 | handle feedback as maintainer | `docs/maintainer-checklist.md` |
 
+## Who This Helps
+
+Good fit:
+
+- solo builders using AI coding agents
+- small teams adding AI assistants to normal repo work
+- open-source maintainers accepting AI-assisted contributions
+- people publishing docs, examples, demos, issues, or release notes
+- anyone who needs a plain stop-before-you-send checklist
+
+Bad fit:
+
+- replacing security, legal, compliance, or production review
+- handling real secrets, logs, customer data, account data, or private repos in public
+- proving a system is safe just because a scan passed
+- moving fast through account, billing, API-key, or deployment changes
+
 ## Start Here
 
 If you only copy three things, copy these:

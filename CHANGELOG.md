@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added README audience fit notes.
 - Added README fast paths.
 - Added a maintainer checklist.
 - Added a review request.
