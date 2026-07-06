@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Tightened contributor check guidance.
 - Added local-check notes.
 - Added a public-surface check.
 - Added a project-instructions example.

@@ -42,14 +42,16 @@ See `docs/scenario-writing.md` for writing fake-but-useful eval scenarios.
 
 See `docs/first-good-issues.md` if you want one small place to start.
 
+See `docs/local-checks.md` for what the local checks catch and what they do not prove.
+
 ## Review Checklist
 
 Before proposing a change:
 
 - run a private-data scan if available
 - review every secret-like or sensitive-data hit
-- run `python scripts/check-links.py` if docs links changed
 - run `python scripts/check-all.py` before opening a pull request if possible
+- read `docs/local-checks.md` if a check fails or if you changed public-facing docs
 - confirm all examples are synthetic or public
 - confirm no external action is implied without approval
 

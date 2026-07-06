@@ -74,4 +74,10 @@ Run:
 python scripts/check-all.py
 ```
 
+If a check fails, read:
+
+```text
+docs/local-checks.md
+```
+
 Then use `.github/PULL_REQUEST_TEMPLATE.md`.
