@@ -42,7 +42,7 @@ def looks_like_local_file(value: str) -> bool:
 
 
 def resolve(base: Path, repo_root: Path, target: str) -> Path:
-    target_path = Path(target.replace("/", "\\"))
+    target_path = Path(*target.replace("\\", "/").split("/"))
     if target_path.is_absolute():
         candidates = [target_path]
     else:
