@@ -13,6 +13,7 @@ python scripts/check-all.py
 Run one check:
 
 ```text
+python scripts/check-checks-index.py
 python scripts/check-scenarios.py
 python scripts/check-coverage.py
 python scripts/check-docs-index.py
@@ -22,6 +23,12 @@ python scripts/check-public-surface.py
 ```
 
 ## What The Checks Do
+
+`scripts/check-checks-index.py`
+
+Checks that every local check script is documented here and run by `scripts/check-all.py`.
+
+This catches new checks that work locally but disappear from the normal review path.
 
 `scripts/check-scenarios.py`
 
@@ -87,6 +94,7 @@ Do this:
 3. If you changed public-facing docs, skim `docs/false-positives-and-misses.md`.
 4. If you changed scenarios, skim `docs/scenario-writing.md` and update `evals/coverage.md`.
 5. If you added a docs, template, checklist, or example page, make sure that folder's `README.md` points to it.
-6. Keep the pull request small enough that a person can review it.
+6. If you added a local check, make sure `docs/local-checks.md` explains it.
+7. Keep the pull request small enough that a person can review it.
 
 If the checks pass but the change still feels weird, stop. The weird feeling is also data.

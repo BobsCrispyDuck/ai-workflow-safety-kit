@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a check-script index guard for local validation docs.
 - Expanded the docs-index check to cover examples, templates, and checklists.
 - Added a docs-index check for discoverability.
 - Added a coverage-map check for eval scenarios.

@@ -10,6 +10,7 @@ from pathlib import Path
 
 CHECKS = (
     ("public surface", "check-public-surface.py"),
+    ("check script index", "check-checks-index.py"),
     ("scenario file", "check-scenarios.py"),
     ("eval coverage", "check-coverage.py"),
     ("docs index", "check-docs-index.py"),
