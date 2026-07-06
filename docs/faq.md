@@ -45,6 +45,8 @@ If you want to copy pieces into your own workflow, start with:
 
 For bigger copy sets, use `docs/starter-pack.md`.
 
+For one copyable page, use `docs/one-page-kit.md`.
+
 ## Can I Use This With Any Coding Assistant?
 
 Mostly, yes.

@@ -4,6 +4,8 @@ If you want to borrow this kit, do not copy the whole repo first.
 
 Start with the smallest pack that matches the work.
 
+If you only want one copyable page, use `docs/one-page-kit.md`.
+
 ## Minimum Pack
 
 Use this before a normal AI-assisted coding session.

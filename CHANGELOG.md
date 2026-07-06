@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a one-page kit.
 - Added a starter pack.
 - Added a FAQ.
 - Added a sharing guide.
