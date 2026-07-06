@@ -8,6 +8,7 @@ Start with the shortest path that matches what you need.
 - `docs/repo-tour.md` - time-boxed paths through the repo
 - `docs/faq.md` - quick answers for new visitors
 - `docs/starter-pack.md` - choose the smallest set of files to copy
+- `docs/copy-into-your-repo.md` - adopt the smallest useful rules in another repo
 - `docs/one-page-kit.md` - copy the core rails on one page
 - `docs/use-cases.md` - where the kit fits in real workflow moments
 - `docs/try-it-now.md` - no-install test prompt
@@ -53,6 +54,7 @@ Start with the shortest path that matches what you need.
 - `docs/model-use-plan.md` - match model strength to task risk
 - `docs/adapting-to-codex.md` - use the kit with Codex
 - `docs/adapting-to-other-agents.md` - use the kit with other assistants
+- `docs/copy-into-your-repo.md` - copy the smallest useful project rule
 - `docs/roadmap.md` - current direction
 
 ## Templates And Checks

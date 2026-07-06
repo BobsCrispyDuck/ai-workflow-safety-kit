@@ -17,6 +17,7 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | If you are here to... | Start with |
 |---|---|
 | copy the guardrails into your own workflow | `docs/one-page-kit.md` |
+| add the kit to an existing repo | `docs/copy-into-your-repo.md` |
 | understand the repo fast | `docs/repo-tour.md` |
 | test the kit with an assistant | `docs/try-it-now.md` |
 | leave one useful review note | `docs/reviewer-brief.md` |
@@ -64,6 +65,10 @@ If you only copy three things, copy these:
 Need a bigger copy set?
 
 `docs/starter-pack.md`
+
+Adding it to an existing repo?
+
+`docs/copy-into-your-repo.md`
 
 Want one copyable page?
 
@@ -219,6 +224,7 @@ If you are about to publish something, use:
 - a docs index for finding the right review or feedback path
 - a FAQ for quick orientation
 - a starter pack for choosing what to copy
+- a copy-into-your-repo guide for adopting the smallest useful rules
 - a one-page kit for copying the core rails quickly
 - a use-case guide for matching the kit to a real workflow moment
 - an examples index for fake tasks
@@ -275,36 +281,37 @@ Do not add:
 7. Read `docs/repo-tour.md`.
 8. Read `docs/faq.md`.
 9. Read `docs/starter-pack.md`.
-10. Read `docs/one-page-kit.md`.
-11. Read `docs/use-cases.md`.
-12. Try `docs/try-it-now.md`.
-13. Compare against `docs/example-result-receipts.md`.
-14. Read `examples/README.md`.
-15. Read `docs/quick-review.md`.
-16. Read `docs/reviewer-brief.md`.
-17. Read `docs/review-paths.md`.
-18. Try `docs/reviewer-prompts.md`.
-19. Use `docs/reviewer-scorecard.md`.
-20. Read `docs/issue-guide.md`.
-21. Read `docs/review-feedback-examples.md`.
-22. Read `docs/response-snippets.md`.
-23. Read `docs/sharing-guide.md`.
-24. Read `docs/review-request.md`.
-25. Read `docs/first-good-issues.md`.
-26. Read `docs/false-positives-and-misses.md`.
-27. Read `docs/known-limits.md`.
-28. Read `docs/triage-guide.md`.
-29. Read `docs/maintainer-checklist.md`.
-30. Read `docs/demo-walkthrough.md`.
-31. Read `docs/scenario-writing.md`.
-32. Read `evals/coverage.md`.
-33. Run `python scripts/check-scenarios.py`.
-34. Run `python scripts/check-links.py`.
-35. Run `python scripts/check-all.py`.
-36. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-37. Use `templates/approval-gate.md` before external or irreversible action.
-38. Use `templates/verification-receipt.md` after a task.
-39. Use `templates/final-audit.md` before calling a larger goal complete.
+10. Read `docs/copy-into-your-repo.md`.
+11. Read `docs/one-page-kit.md`.
+12. Read `docs/use-cases.md`.
+13. Try `docs/try-it-now.md`.
+14. Compare against `docs/example-result-receipts.md`.
+15. Read `examples/README.md`.
+16. Read `docs/quick-review.md`.
+17. Read `docs/reviewer-brief.md`.
+18. Read `docs/review-paths.md`.
+19. Try `docs/reviewer-prompts.md`.
+20. Use `docs/reviewer-scorecard.md`.
+21. Read `docs/issue-guide.md`.
+22. Read `docs/review-feedback-examples.md`.
+23. Read `docs/response-snippets.md`.
+24. Read `docs/sharing-guide.md`.
+25. Read `docs/review-request.md`.
+26. Read `docs/first-good-issues.md`.
+27. Read `docs/false-positives-and-misses.md`.
+28. Read `docs/known-limits.md`.
+29. Read `docs/triage-guide.md`.
+30. Read `docs/maintainer-checklist.md`.
+31. Read `docs/demo-walkthrough.md`.
+32. Read `docs/scenario-writing.md`.
+33. Read `evals/coverage.md`.
+34. Run `python scripts/check-scenarios.py`.
+35. Run `python scripts/check-links.py`.
+36. Run `python scripts/check-all.py`.
+37. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+38. Use `templates/approval-gate.md` before external or irreversible action.
+39. Use `templates/verification-receipt.md` after a task.
+40. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

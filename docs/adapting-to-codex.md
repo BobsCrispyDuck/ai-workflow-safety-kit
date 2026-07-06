@@ -30,3 +30,4 @@ Use these ideas with Codex by placing project-specific rules in the right scope.
 3. Ask Codex to stop before production or account changes.
 4. Ask Codex to report evidence, not vibes.
 
+For a copyable starter rule, use `docs/copy-into-your-repo.md`.

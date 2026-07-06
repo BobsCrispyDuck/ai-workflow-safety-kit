@@ -24,3 +24,4 @@ root -> data lane -> approval gate -> local work -> verification receipt -> fina
 - treating a successful build as proof the product works
 - calling work complete without checking current state
 
+For a copyable starter rule, use `docs/copy-into-your-repo.md`.
