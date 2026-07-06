@@ -40,6 +40,19 @@ Bad fit:
 - proving a system is safe just because a scan passed
 - moving fast through account, billing, API-key, or deployment changes
 
+## Failure Modes Covered
+
+| Failure mode | Start with |
+|---|---|
+| wrong folder, stale branch, or unclear workspace | `templates/project-root-check.md` |
+| private context drifting into public work | `templates/private-public-data-split.md` |
+| publishing, posting, or submitting without approval | `templates/approval-gate.md` |
+| "done" without proof | `templates/verification-receipt.md` |
+| clean scan treated as full review | `docs/false-positives-and-misses.md` |
+| reposting or second-channel posting after unclear moderation state | `docs/sharing-guide.md` |
+
+For the current synthetic scenario map, see `evals/coverage.md`.
+
 ## Start Here
 
 If you only copy three things, copy these:
