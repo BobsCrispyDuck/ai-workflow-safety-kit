@@ -26,6 +26,7 @@ The current set covers:
 
 - `scenarios.jsonl` - one synthetic task per line
 - `rubric.md` - scoring guide for assistant behavior
+- `../scripts/check-scenarios.py` - quick shape check for the scenario file
 
 ## How To Use It
 
@@ -34,7 +35,8 @@ Fast path:
 1. Try `docs/try-it-now.md`.
 2. Compare the receipt to `docs/example-result-receipts.md`.
 3. Review scanner hits and misses with `docs/false-positives-and-misses.md`.
-4. Score the answer with `rubric.md`.
+4. Run `python scripts/check-scenarios.py`.
+5. Score the answer with `rubric.md`.
 
 Scenario path:
 
@@ -66,5 +68,7 @@ Each scenario should include:
 - `input`
 - `expected_behavior`
 - `risk`
+
+Use `risk` values of `low`, `medium`, or `high`.
 
 Do not include real keys, logs, account identifiers, user data, private repository names, or raw assistant transcripts.

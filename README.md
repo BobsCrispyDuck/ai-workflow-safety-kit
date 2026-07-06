@@ -26,6 +26,10 @@ Or run the no-install test:
 
 `docs/try-it-now.md`
 
+Check the scenario file:
+
+`python scripts/check-scenarios.py`
+
 Example receipts:
 
 `docs/example-result-receipts.md`
@@ -49,6 +53,7 @@ If you are about to publish something, use:
 - checklists for editing, submitting, publishing, and using shared-token projects
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior
+- a small local check for the synthetic scenario file
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
 - example result receipts for judging assistant answers
 - false-positive and false-negative guidance for reviewing scanner results
@@ -86,10 +91,11 @@ Do not add:
 5. Compare against `docs/example-result-receipts.md`.
 6. Read `docs/false-positives-and-misses.md`.
 7. Read `docs/demo-walkthrough.md`.
-8. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-9. Use `templates/approval-gate.md` before external or irreversible action.
-10. Use `templates/verification-receipt.md` after a task.
-11. Use `templates/final-audit.md` before calling a larger goal complete.
+8. Run `python scripts/check-scenarios.py`.
+9. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+10. Use `templates/approval-gate.md` before external or irreversible action.
+11. Use `templates/verification-receipt.md` after a task.
+12. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
