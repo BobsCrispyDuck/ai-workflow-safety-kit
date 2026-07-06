@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added direct feedback issue links.
 - Added a README feedback ask.
 - Tightened contributor check guidance.
 - Added local-check notes.

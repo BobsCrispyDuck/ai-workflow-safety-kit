@@ -33,6 +33,9 @@ README.md
 
 Or, if you want the short review format:
 docs/reviewer-brief.md
+
+GitHub scorecard:
+https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml
 ```
 
 ## When To Use It

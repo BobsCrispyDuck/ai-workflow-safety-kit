@@ -37,7 +37,13 @@ Useful notes:
 
 No private logs or transcripts needed. A fake version is better.
 
-Start with `docs/reviewer-brief.md` or open the reviewer scorecard issue template.
+Start with `docs/reviewer-brief.md` or open the [reviewer scorecard issue template](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml).
+
+Other useful issue paths:
+
+- [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml)
+- [safety miss](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=safety-miss.yml)
+- [docs or template feedback](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=docs-template-feedback.yml)
 
 ## Who This Helps
 

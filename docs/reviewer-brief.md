@@ -72,6 +72,6 @@ Private details removed: yes/no
 
 For more structure, use `docs/reviewer-scorecard.md`.
 
-On GitHub, use the reviewer scorecard issue template.
+On GitHub, use the [reviewer scorecard issue template](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml).
 
 For examples, use `docs/review-feedback-examples.md`.
