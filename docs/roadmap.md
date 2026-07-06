@@ -26,6 +26,7 @@ Next:
 - model-use notes for cheap drafts, stronger review, and approval gates
 - a no-install try-it-now test
 - example result receipts for the try-it-now prompts
+- documented false-positive and false-negative categories
 
 Good enough to count:
 
@@ -35,12 +36,13 @@ Good enough to count:
 - model-use guidance keeps public/synthetic drafting separate from risky review
 - someone can compare guarded and unguarded assistant behavior on fake tasks
 - example receipts make pass/fail review easier to compare
+- scanner hits and clean scans are both treated as clues, not proof
 
 ## v0.3
 
 After that:
 
-- documented false-positive and false-negative categories
+- more examples from real public feedback
 
 Good enough to count:
 
