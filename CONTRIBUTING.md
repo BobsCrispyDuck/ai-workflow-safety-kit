@@ -39,6 +39,7 @@ Before proposing a change:
 
 - run a private-data scan if available
 - review every secret-like or sensitive-data hit
+- run `python scripts/check-links.py` if docs links changed
 - confirm all examples are synthetic or public
 - confirm no external action is implied without approval
 
