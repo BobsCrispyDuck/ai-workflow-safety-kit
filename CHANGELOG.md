@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a coverage-map check for eval scenarios.
 - Added an eval scorecard for one-scenario review.
 - Added rubric notes for visibility-safety scenarios.
 - Added a checklist for asking for review safely.

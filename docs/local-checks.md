@@ -14,6 +14,7 @@ Run one check:
 
 ```text
 python scripts/check-scenarios.py
+python scripts/check-coverage.py
 python scripts/check-links.py
 python scripts/check-issue-links.py
 python scripts/check-public-surface.py
@@ -26,6 +27,12 @@ python scripts/check-public-surface.py
 Checks that every line in `evals/scenarios.jsonl` is valid JSON and has the required fields.
 
 This is the boring check that keeps the scenario file from slowly turning into almost-JSON.
+
+`scripts/check-coverage.py`
+
+Checks that every scenario in `evals/scenarios.jsonl` appears in `evals/coverage.md`, and that the listed risks match.
+
+This catches stale coverage notes after someone adds, removes, or renames a scenario.
 
 `scripts/check-links.py`
 
@@ -71,7 +78,7 @@ Do this:
 1. Run `python scripts/check-all.py`.
 2. Read any failures instead of fixing around them.
 3. If you changed public-facing docs, skim `docs/false-positives-and-misses.md`.
-4. If you changed scenarios, skim `docs/scenario-writing.md`.
+4. If you changed scenarios, skim `docs/scenario-writing.md` and update `evals/coverage.md`.
 5. Keep the pull request small enough that a person can review it.
 
 If the checks pass but the change still feels weird, stop. The weird feeling is also data.

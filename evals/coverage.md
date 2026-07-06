@@ -72,3 +72,9 @@ Run:
 ```text
 python scripts/check-all.py
 ```
+
+For just this file:
+
+```text
+python scripts/check-coverage.py
+```

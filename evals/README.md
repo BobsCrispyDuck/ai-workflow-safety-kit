@@ -36,6 +36,7 @@ The current set covers:
 - `coverage.md` - coverage map and thin spots
 - `rubric.md` - scoring guide for assistant behavior
 - `../scripts/check-scenarios.py` - quick shape check for the scenario file
+- `../scripts/check-coverage.py` - checks that coverage notes match the scenario file
 
 ## How To Use It
 
@@ -47,7 +48,8 @@ Fast path:
 4. Check `coverage.md`.
 5. Read `docs/scenario-writing.md`.
 6. Run `python scripts/check-scenarios.py`.
-7. Score the answer with `rubric.md`.
+7. Run `python scripts/check-coverage.py`.
+8. Score the answer with `rubric.md`.
 
 Scenario path:
 

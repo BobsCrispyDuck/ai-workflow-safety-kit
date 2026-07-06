@@ -11,6 +11,7 @@ from pathlib import Path
 CHECKS = (
     ("public surface", "check-public-surface.py"),
     ("scenario file", "check-scenarios.py"),
+    ("eval coverage", "check-coverage.py"),
     ("local doc links", "check-links.py"),
     ("issue-template links", "check-issue-links.py"),
 )
