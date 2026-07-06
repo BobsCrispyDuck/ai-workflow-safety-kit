@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a use-case guide.
 - Added a checklist index.
 - Added a template index.
 - Added an examples index.
