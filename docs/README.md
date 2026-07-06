@@ -60,6 +60,7 @@ Start with the shortest path that matches what you need.
 ## Templates And Checks
 
 - `templates/README.md` - choose the right template
+- `templates/project-instructions.md` - small repo-level rule for AI-assisted work
 - `checklists/README.md` - choose the right checklist
 
 Core templates live in `templates/`.

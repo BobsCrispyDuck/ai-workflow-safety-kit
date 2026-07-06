@@ -6,6 +6,7 @@ They are meant to be copied into a task, issue, or assistant instruction. Keep p
 
 ## Start A Work Session
 
+- `templates/project-instructions.md` - small repo-level rule for AI-assisted work
 - `templates/work-session-check.md` - define scope, blocked areas, and proof needed
 - `templates/project-root-check.md` - confirm the assistant is in the right project before editing
 - `templates/private-public-data-split.md` - separate public/synthetic material from private material

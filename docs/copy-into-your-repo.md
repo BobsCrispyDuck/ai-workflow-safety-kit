@@ -6,6 +6,8 @@ Do not copy everything first. Start with one short project rule, then add checkl
 
 ## Smallest Useful Rule
 
+If you want a file-shaped version, copy `templates/project-instructions.md`.
+
 Paste something like this into your project instructions:
 
 ```text
@@ -24,6 +26,7 @@ Then point to the files that matter for the current work.
 
 Copy or reference:
 
+- `templates/project-instructions.md`
 - `templates/work-session-check.md`
 - `templates/project-root-check.md`
 - `templates/private-public-data-split.md`
