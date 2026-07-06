@@ -124,6 +124,10 @@ Share it safely:
 
 `docs/sharing-guide.md`
 
+Ask for one review:
+
+`docs/review-request.md`
+
 Find a small contribution:
 
 `docs/first-good-issues.md`
@@ -183,6 +187,7 @@ If you are about to publish something, use:
 - public-safe examples of useful review feedback
 - short public-safe response snippets
 - a sharing guide for low-noise public posts
+- a review request for asking one relevant person without spam
 - first-good-issue notes for small public-safe contributions
 - false-positive and false-negative guidance for reviewing scanner results
 - known limits so the project does not overclaim
@@ -238,20 +243,21 @@ Do not add:
 21. Read `docs/review-feedback-examples.md`.
 22. Read `docs/response-snippets.md`.
 23. Read `docs/sharing-guide.md`.
-24. Read `docs/first-good-issues.md`.
-25. Read `docs/false-positives-and-misses.md`.
-26. Read `docs/known-limits.md`.
-27. Read `docs/triage-guide.md`.
-28. Read `docs/demo-walkthrough.md`.
-29. Read `docs/scenario-writing.md`.
-30. Read `evals/coverage.md`.
-31. Run `python scripts/check-scenarios.py`.
-32. Run `python scripts/check-links.py`.
-33. Run `python scripts/check-all.py`.
-34. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-35. Use `templates/approval-gate.md` before external or irreversible action.
-36. Use `templates/verification-receipt.md` after a task.
-37. Use `templates/final-audit.md` before calling a larger goal complete.
+24. Read `docs/review-request.md`.
+25. Read `docs/first-good-issues.md`.
+26. Read `docs/false-positives-and-misses.md`.
+27. Read `docs/known-limits.md`.
+28. Read `docs/triage-guide.md`.
+29. Read `docs/demo-walkthrough.md`.
+30. Read `docs/scenario-writing.md`.
+31. Read `evals/coverage.md`.
+32. Run `python scripts/check-scenarios.py`.
+33. Run `python scripts/check-links.py`.
+34. Run `python scripts/check-all.py`.
+35. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+36. Use `templates/approval-gate.md` before external or irreversible action.
+37. Use `templates/verification-receipt.md` after a task.
+38. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

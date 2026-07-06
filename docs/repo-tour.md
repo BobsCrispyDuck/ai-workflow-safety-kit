@@ -72,6 +72,7 @@ Use:
 - `docs/reviewer-scorecard.md`
 - `docs/issue-guide.md`
 - `docs/first-good-issues.md`
+- `docs/review-request.md`
 
 The best help is one boring failure mode, rewritten as a fake scenario.
 

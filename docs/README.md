@@ -38,6 +38,7 @@ Start with the shortest path that matches what you need.
 - `docs/triage-guide.md` - handle public feedback safely
 - `docs/first-good-issues.md` - small places to contribute
 - `docs/sharing-guide.md` - share the repo without spammy link drops
+- `docs/review-request.md` - ask one relevant person for a focused review
 
 ## Writing Or Changing Scenarios
 

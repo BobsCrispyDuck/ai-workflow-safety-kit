@@ -85,3 +85,5 @@ https://github.com/BobsCrispyDuck/ai-workflow-safety-kit
 Share once, then wait.
 
 If nobody responds, improve the repo. Do not immediately repost the same thing somewhere else.
+
+For asking one relevant person or small group, use `docs/review-request.md`.

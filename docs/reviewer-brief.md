@@ -6,6 +6,8 @@ The best review is one small note about where an assistant should slow down and 
 
 If you want a time-boxed path first, use `docs/repo-tour.md`.
 
+If you are asking someone else for review, use `docs/review-request.md`.
+
 ## The Ask
 
 Try one thing and send back one useful miss.
