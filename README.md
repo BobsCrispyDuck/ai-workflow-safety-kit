@@ -122,6 +122,10 @@ Check local doc links:
 
 `python scripts/check-links.py`
 
+Understand local checks:
+
+`docs/local-checks.md`
+
 Run all local checks:
 
 `python scripts/check-all.py`
@@ -227,6 +231,8 @@ If you are about to publish something, use:
 - an eval coverage map for spotting thin areas
 - a small local check for the synthetic scenario file
 - a small local check for internal doc links
+- a small public-surface check for obvious private paths and generated-by-AI residue
+- local-check notes explaining what the checks do and do not prove
 - a one-command local check runner
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
 - a repo tour for time-boxed review paths
@@ -319,11 +325,12 @@ Do not add:
 35. Read `evals/coverage.md`.
 36. Run `python scripts/check-scenarios.py`.
 37. Run `python scripts/check-links.py`.
-38. Run `python scripts/check-all.py`.
-39. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-40. Use `templates/approval-gate.md` before external or irreversible action.
-41. Use `templates/verification-receipt.md` after a task.
-42. Use `templates/final-audit.md` before calling a larger goal complete.
+38. Read `docs/local-checks.md`.
+39. Run `python scripts/check-all.py`.
+40. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+41. Use `templates/approval-gate.md` before external or irreversible action.
+42. Use `templates/verification-receipt.md` after a task.
+43. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

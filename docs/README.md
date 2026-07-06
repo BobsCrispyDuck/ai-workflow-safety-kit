@@ -62,6 +62,7 @@ Start with the shortest path that matches what you need.
 - `templates/README.md` - choose the right template
 - `templates/project-instructions.md` - small repo-level rule for AI-assisted work
 - `checklists/README.md` - choose the right checklist
+- `docs/local-checks.md` - what the local checks catch and what they do not prove
 
 Core templates live in `templates/`.
 

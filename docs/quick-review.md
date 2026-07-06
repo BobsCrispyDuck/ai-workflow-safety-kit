@@ -89,4 +89,5 @@ When feedback comes in:
 - keep the useful behavior
 - drop the private details
 - turn the pattern into a fake scenario, checklist tweak, or rubric note
-- run `python scripts/check-scenarios.py` after eval changes
+- run `python scripts/check-all.py` before pushing
+- use `docs/local-checks.md` when a check failure is unclear
