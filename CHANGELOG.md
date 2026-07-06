@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a docs index.
 - Added an eval coverage map.
 - Added known limits notes.
 - Added a GitHub Actions workflow for local repo checks.
