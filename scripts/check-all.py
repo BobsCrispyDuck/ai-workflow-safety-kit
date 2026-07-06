@@ -9,6 +9,7 @@ from pathlib import Path
 
 
 CHECKS = (
+    ("public surface", "check-public-surface.py"),
     ("scenario file", "check-scenarios.py"),
     ("local doc links", "check-links.py"),
 )

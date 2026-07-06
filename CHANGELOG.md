@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a public-surface check.
 - Added a project-instructions example.
 - Added a project-instructions template.
 - Added a copy-into-your-repo guide.
