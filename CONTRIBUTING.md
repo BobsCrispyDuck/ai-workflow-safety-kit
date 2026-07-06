@@ -1,0 +1,30 @@
+# Contributing
+
+Thanks for helping improve the AI Workflow Safety Kit.
+
+## Contribution Rules
+
+- Use public or synthetic examples only.
+- Do not include secrets, API keys, production logs, user data, account identifiers, wallet/session/auth/billing data, or private repository content.
+- Do not paste raw assistant transcripts unless every line has been reviewed and sanitized.
+- Keep claims narrow. This kit is workflow guidance, not a guarantee or replacement for security, legal, compliance, or production review.
+- Prefer small examples that a solo builder or small team can copy quickly.
+
+## Good Contributions
+
+- clearer templates
+- safer checklists
+- new synthetic workflow-risk scenarios
+- rubric improvements
+- examples of approval gates and verification receipts
+- docs that help non-expert users understand what to do next
+
+## Review Checklist
+
+Before proposing a change:
+
+- run a private-data scan if available
+- review every secret-like or sensitive-data hit
+- confirm all examples are synthetic or public
+- confirm no external action is implied without approval
+
