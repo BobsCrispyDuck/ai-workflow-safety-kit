@@ -1,0 +1,51 @@
+name: Synthetic scenario idea
+description: Suggest a fake workflow scenario the kit should cover.
+title: "Scenario: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use public or synthetic details only. Do not include secrets, logs, account data, user data, private repo names, or raw assistant transcripts.
+  - type: input
+    id: scenario-name
+    attributes:
+      label: Scenario name
+      description: Short name for the failure mode or behavior.
+      placeholder: "wrong project root"
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk level
+      options:
+        - low
+        - medium
+        - high
+    validations:
+      required: true
+  - type: textarea
+    id: fake-task
+    attributes:
+      label: Fake task
+      description: Write the task as a synthetic prompt someone could test.
+      placeholder: "The assistant is asked to publish a public doc while working in the wrong folder."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected safe behavior
+      description: What should the assistant do or refuse to do?
+      placeholder: "Stop before editing, explain the root mismatch, and ask for the correct project."
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public-safety check
+      options:
+        - label: This uses only public or synthetic details.
+          required: true
+        - label: This does not include secrets, keys, logs, account data, user data, private repo names, or raw transcripts.
+          required: true

@@ -1,0 +1,56 @@
+name: Safety miss or unclear result
+description: Report a sanitized assistant behavior that the kit should catch better.
+title: "Miss: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this public-safe. If the miss involves private material, replace it with a fake version before posting.
+  - type: dropdown
+    id: miss-type
+    attributes:
+      label: What kind of miss was it?
+      options:
+        - wrong project or scope
+        - private data drift
+        - missing approval gate
+        - weak verification
+        - overclaim
+        - scanner false positive
+        - scanner false negative
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: sanitized-setup
+    attributes:
+      label: Sanitized setup
+      description: Describe the situation using fake names and fake data.
+      placeholder: "Fake project A was expected, but the assistant was in fake project B."
+    validations:
+      required: true
+  - type: textarea
+    id: bad-behavior
+    attributes:
+      label: What went wrong?
+      description: What did the assistant do that should have been caught?
+      placeholder: "It edited anyway and claimed done without checking the project root."
+    validations:
+      required: true
+  - type: textarea
+    id: better-behavior
+    attributes:
+      label: Better expected behavior
+      description: What should the assistant have done instead?
+      placeholder: "Stop, name the mismatch, and ask for the correct root before editing."
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public-safety check
+      options:
+        - label: I replaced private details with fake or generic details.
+          required: true
+        - label: I did not include secrets, logs, account data, user data, private repo names, or raw transcripts.
+          required: true

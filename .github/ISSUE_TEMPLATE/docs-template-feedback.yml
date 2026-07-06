@@ -1,0 +1,36 @@
+name: Docs or template feedback
+description: Suggest a small improvement to a doc, checklist, template, or receipt.
+title: "Docs: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep it small and public-safe. This kit is meant to stay easy to copy.
+  - type: input
+    id: page
+    attributes:
+      label: Page or template
+      placeholder: "templates/project-root-check.md"
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is confusing or missing?
+      placeholder: "The stop condition could be clearer for archived project copies."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-change
+    attributes:
+      label: Suggested change
+      placeholder: "Add one line saying to stop if the folder is an old synced copy."
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public-safety check
+      options:
+        - label: This does not include private project details, logs, user data, account data, or raw transcripts.
+          required: true

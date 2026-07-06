@@ -19,6 +19,14 @@ Thanks for helping improve the AI Workflow Safety Kit.
 - examples of approval gates and verification receipts
 - docs that help non-expert users understand what to do next
 
+## Issues
+
+Use the issue templates when possible.
+
+- Scenario ideas should be fake and reusable.
+- Safety misses should be sanitized before posting.
+- Docs feedback should stay small and specific.
+
 ## Review Checklist
 
 Before proposing a change:
@@ -27,4 +35,3 @@ Before proposing a change:
 - review every secret-like or sensitive-data hit
 - confirm all examples are synthetic or public
 - confirm no external action is implied without approval
-
