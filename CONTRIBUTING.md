@@ -34,6 +34,8 @@ See `docs/issue-guide.md` for choosing the right public-safe issue template.
 
 See `docs/feedback-loop.md` for turning outside feedback into public-safe scenarios or docs changes.
 
+See `docs/triage-guide.md` for handling public feedback without carrying private details into the repo.
+
 See `docs/scenario-writing.md` for writing fake-but-useful eval scenarios.
 
 See `docs/first-good-issues.md` if you want one small place to start.

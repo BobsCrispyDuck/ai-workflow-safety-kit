@@ -34,6 +34,7 @@ Start with the shortest path that matches what you need.
 - `docs/review-feedback-examples.md` - useful public-safe feedback examples
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note
+- `docs/triage-guide.md` - handle public feedback safely
 - `docs/first-good-issues.md` - small places to contribute
 - `docs/sharing-guide.md` - share the repo without spammy link drops
 

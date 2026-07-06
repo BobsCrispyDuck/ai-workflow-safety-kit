@@ -61,3 +61,7 @@ The most useful ask is: what boring failure mode is missing?
 More:
 
 `docs/sharing-guide.md`
+
+Triage:
+
+`docs/triage-guide.md`

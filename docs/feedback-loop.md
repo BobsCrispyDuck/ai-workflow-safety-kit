@@ -81,6 +81,10 @@ Issue guide:
 
 `docs/issue-guide.md`
 
+Triage guide:
+
+`docs/triage-guide.md`
+
 ## Not Good Feedback
 
 ```text
