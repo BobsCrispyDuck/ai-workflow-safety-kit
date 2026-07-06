@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Expanded eval scenarios from 22 to 24.
 - Added a one-page kit.
 - Added a starter pack.
 - Added a FAQ.
