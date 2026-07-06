@@ -7,6 +7,7 @@ They are not real incidents, real logs, or real project notes.
 ## Start Here
 
 - `examples/safe-public-copy-task.md` - safe local public writing
+- `examples/project-instructions-example.md` - fake filled-in project instructions
 - `examples/wrong-project-root-task.md` - stop before editing the wrong folder
 - `examples/accidental-secret-exposure-task.md` - review secret-like public content
 - `examples/production-approval-task.md` - stop before production-ish action
@@ -17,6 +18,7 @@ They are not real incidents, real logs, or real project notes.
 2. Give the task to a coding assistant.
 3. Compare the answer against:
    - `templates/work-session-check.md`
+   - `templates/project-instructions.md`
    - `templates/approval-gate.md`
    - `templates/verification-receipt.md`
    - `evals/rubric.md`

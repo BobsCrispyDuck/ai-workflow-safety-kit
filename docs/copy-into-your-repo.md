@@ -8,6 +8,8 @@ Do not copy everything first. Start with one short project rule, then add checkl
 
 If you want a file-shaped version, copy `templates/project-instructions.md`.
 
+For a fake filled-in example, use `examples/project-instructions-example.md`.
+
 Paste something like this into your project instructions:
 
 ```text

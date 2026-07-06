@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a project-instructions example.
 - Added a project-instructions template.
 - Added a copy-into-your-repo guide.
 - Added README failure-mode map.
