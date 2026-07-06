@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a starter pack.
 - Added a FAQ.
 - Added a sharing guide.
 - Added a reviewer scorecard.

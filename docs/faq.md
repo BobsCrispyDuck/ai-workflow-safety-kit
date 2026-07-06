@@ -43,6 +43,8 @@ If you want to copy pieces into your own workflow, start with:
 - `templates/project-root-check.md`
 - `templates/private-public-data-split.md`
 
+For bigger copy sets, use `docs/starter-pack.md`.
+
 ## Can I Use This With Any Coding Assistant?
 
 Mostly, yes.

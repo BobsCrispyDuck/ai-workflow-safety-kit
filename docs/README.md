@@ -6,6 +6,7 @@ Start with the shortest path that matches what you need.
 
 - `docs/demo-walkthrough.md` - two-minute walkthrough
 - `docs/faq.md` - quick answers for new visitors
+- `docs/starter-pack.md` - choose the smallest set of files to copy
 - `docs/use-cases.md` - where the kit fits in real workflow moments
 - `docs/try-it-now.md` - no-install test prompt
 - `docs/quick-review.md` - five-minute review path
