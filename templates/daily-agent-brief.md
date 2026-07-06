@@ -1,10 +1,10 @@
 # Template: Daily Agent Brief
 
-Use this when asking an AI assistant to make steady progress on a public or synthetic project.
+Use this when you want steady progress without handing the assistant the keys to everything.
 
 ## Goal
 
-Make 1-3 small improvements today.
+Make 1-3 small improvements today. Keep them boring enough to finish.
 
 ## Allowed Work
 
@@ -34,11 +34,11 @@ Stop before:
 ## Daily Steps
 
 1. Pick 1-3 tasks.
-2. Say what will be changed.
+2. Say what will be changed in plain language.
 3. Make the smallest useful edit.
 4. Run relevant checks.
 5. Write a short receipt.
-6. Stop and report hard stops or questions.
+6. Stop and report hard stops or real questions.
 
 ## Receipt
 
@@ -48,4 +48,3 @@ Stop before:
 - public repo update:
 - hard stops:
 - next tasks:
-

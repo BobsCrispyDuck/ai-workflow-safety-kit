@@ -1,12 +1,12 @@
 # Roadmap
 
-This roadmap keeps the AI Workflow Safety Kit small, useful, and honest.
+This roadmap keeps the kit small enough to actually use.
 
 ## v0.1
 
 Status: published
 
-Focus:
+What shipped:
 
 - basic workflow-safety templates
 - editing, publishing, submitting, and shared-token checklists
@@ -16,7 +16,7 @@ Focus:
 
 ## v0.2
 
-Focus:
+Next:
 
 - more synthetic eval scenarios
 - a clearer demo walkthrough
@@ -24,31 +24,30 @@ Focus:
 - stronger public-release checks
 - clearer guidance for nontechnical users
 
-Success looks like:
+Good enough to count:
 
-- a new user can copy the quick-start workflow without extra explanation
+- a new user can copy the quick start without needing a meeting about it
 - eval scenarios cover safe, blocked, and approval-needed cases
 - public release checks catch private data before publishing
 
 ## v0.3
 
-Focus:
+After that:
 
 - example result receipts
 - a simple manual test protocol
 - model-use notes for low-cost scenario generation and higher-quality audits
 - documented false-positive and false-negative categories
 
-Success looks like:
+Good enough to count:
 
-- someone can compare guarded and unguarded assistant behavior on synthetic tasks
+- someone can compare guarded and unguarded assistant behavior on fake-but-realistic tasks
 - project claims remain narrow and evidence-backed
 - examples remain public-safe and reusable
 
-## Out Of Scope
+## Not The Thing
 
 - real secrets, logs, or private repository content
 - offensive security testing
 - account, billing, or production automation
-- claims that the kit guarantees safety
-
+- pretending this guarantees safety

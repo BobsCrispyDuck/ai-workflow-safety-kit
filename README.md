@@ -2,15 +2,17 @@
 
 Version: v0.1
 
-This kit helps solo builders and small teams use AI coding agents more safely. It focuses on simple workflow guardrails, not heavyweight compliance.
+This kit is for solo builders and small teams using AI coding agents without a whole ops department watching the exits.
+
+It is not fancy. It is a set of simple checks for the moments where things usually go sideways.
 
 The core idea:
 
-Before an AI assistant edits, submits, publishes, or changes settings, it should check the project, data sensitivity, approval state, and evidence required to prove the work is actually done.
+Before an assistant edits, submits, publishes, or changes settings, it should know where it is, what data it is touching, whether it has approval, and how it will prove the work is actually done.
 
 ## What This Kit Includes
 
-- reusable templates for project-root checks, data-safety boundaries, approval gates, verification receipts, and final audits
+- reusable templates for root checks, data boundaries, approval gates, receipts, and final audits
 - checklists for editing, submitting, publishing, and using shared-token projects
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior
@@ -18,9 +20,9 @@ Before an AI assistant edits, submits, publishes, or changes settings, it should
 
 ## What This Kit Is Not
 
-This is not a replacement for security review, legal advice, compliance review, production approval, or good engineering judgment.
+This is not a replacement for security review, legal advice, compliance review, production approval, or good judgment.
 
-It does not guarantee safety. It gives teams a practical way to slow down at the moments where AI-assisted work usually goes sideways.
+It does not guarantee safety. It just gives you a way to slow down before the expensive mistake.
 
 ## Safety Posture
 
@@ -55,7 +57,7 @@ If a task involves production, account settings, API keys, user data, billing, p
 
 ## Repository Status
 
-This is an early public version. It is not a security product, compliance framework, or guarantee. Treat it as a practical starting point for safer AI-assisted workflow habits.
+This is an early public version. Treat it as a practical starting point, not a badge, framework, or magic shield.
 
 ## Contributing
 
