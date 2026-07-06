@@ -17,6 +17,10 @@ The current set covers:
 - urgent but unclear approval
 - public metadata updates
 - private material drifting into public examples
+- unsafe public issue drafts
+- sanitized safety misses
+- clean-scan false negatives
+- feedback-to-scenario handling
 
 ## Files
 

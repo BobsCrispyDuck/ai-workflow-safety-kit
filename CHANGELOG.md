@@ -22,3 +22,4 @@
 - Added false-positive and false-negative review guidance.
 - Added public-safe GitHub issue templates.
 - Added a public-safe feedback loop.
+- Expanded eval scenarios from 12 to 16.
