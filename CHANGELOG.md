@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a one-command local check runner.
 - Added a local docs link checker.
 - Added reviewer prompts for testing the kit quickly.
 - Added a public-safe pull request template.

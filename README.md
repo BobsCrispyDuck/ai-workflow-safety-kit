@@ -34,6 +34,10 @@ Check local doc links:
 
 `python scripts/check-links.py`
 
+Run all local checks:
+
+`python scripts/check-all.py`
+
 Example receipts:
 
 `docs/example-result-receipts.md`
@@ -71,6 +75,7 @@ If you are about to publish something, use:
 - evaluation scenarios and a rubric for testing assistant behavior
 - a small local check for the synthetic scenario file
 - a small local check for internal doc links
+- a one-command local check runner
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
 - example result receipts for judging assistant answers
 - a quick-review path for lightweight public feedback
@@ -116,10 +121,11 @@ Do not add:
 10. Read `docs/scenario-writing.md`.
 11. Run `python scripts/check-scenarios.py`.
 12. Run `python scripts/check-links.py`.
-13. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-14. Use `templates/approval-gate.md` before external or irreversible action.
-15. Use `templates/verification-receipt.md` after a task.
-16. Use `templates/final-audit.md` before calling a larger goal complete.
+13. Run `python scripts/check-all.py`.
+14. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+15. Use `templates/approval-gate.md` before external or irreversible action.
+16. Use `templates/verification-receipt.md` after a task.
+17. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
