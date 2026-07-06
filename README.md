@@ -309,49 +309,19 @@ Do not add:
 
 ## Quick Start
 
-1. Start with `templates/work-session-check.md`.
-2. Read `templates/project-root-check.md`.
-3. Read `templates/private-public-data-split.md`.
-4. Read `templates/README.md`.
-5. Read `templates/project-instructions.md`.
-6. Read `checklists/README.md`.
-7. Browse `docs/README.md`.
-8. Read `docs/repo-tour.md`.
-9. Read `docs/faq.md`.
-10. Read `docs/starter-pack.md`.
-11. Read `docs/copy-into-your-repo.md`.
-12. Read `docs/one-page-kit.md`.
-13. Read `docs/use-cases.md`.
-14. Try `docs/try-it-now.md`.
-15. Compare against `docs/example-result-receipts.md`.
-16. Read `examples/README.md`.
-17. Read `examples/project-instructions-example.md`.
-18. Read `docs/quick-review.md`.
-19. Read `docs/reviewer-brief.md`.
-20. Read `docs/review-paths.md`.
-21. Try `docs/reviewer-prompts.md`.
-22. Use `docs/reviewer-scorecard.md`.
-23. Read `docs/issue-guide.md`.
-24. Read `docs/review-feedback-examples.md`.
-25. Read `docs/response-snippets.md`.
-26. Read `docs/sharing-guide.md`.
-27. Read `docs/review-request.md`.
-28. Read `docs/first-good-issues.md`.
-29. Read `docs/false-positives-and-misses.md`.
-30. Read `docs/known-limits.md`.
-31. Read `docs/triage-guide.md`.
-32. Read `docs/maintainer-checklist.md`.
-33. Read `docs/demo-walkthrough.md`.
-34. Read `docs/scenario-writing.md`.
-35. Read `evals/coverage.md`.
-36. Run `python scripts/check-scenarios.py`.
-37. Run `python scripts/check-links.py`.
-38. Read `docs/local-checks.md`.
-39. Run `python scripts/check-all.py`.
-40. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-41. Use `templates/approval-gate.md` before external or irreversible action.
-42. Use `templates/verification-receipt.md` after a task.
-43. Use `templates/final-audit.md` before calling a larger goal complete.
+If you want to try the kit instead of reading the whole repo:
+
+1. Copy `docs/one-page-kit.md` into a scratch note or test repo.
+2. Use `templates/project-root-check.md` before the assistant edits anything.
+3. Use `templates/private-public-data-split.md` before public docs, issues, examples, or posts.
+4. Run one fake task from `docs/try-it-now.md`.
+5. Compare the answer against `docs/example-result-receipts.md`.
+
+If you are adding this to a real repo, use `docs/copy-into-your-repo.md`.
+
+If you are reviewing this project, use `docs/reviewer-brief.md`.
+
+If you want the full map, use `docs/README.md`.
 
 ## Suggested Workflow
 

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Tightened the README quick start.
 - Updated the roadmap.
 - Added public support guidance.
 - Added feedback links to the sharing guide.
