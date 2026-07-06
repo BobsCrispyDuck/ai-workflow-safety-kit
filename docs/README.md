@@ -78,3 +78,5 @@ Local checks:
 ```text
 python scripts/check-all.py
 ```
+
+The local checks also make sure this index lists every page under `docs/`.

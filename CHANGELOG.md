@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a docs-index check for discoverability.
 - Added a coverage-map check for eval scenarios.
 - Added an eval scorecard for one-scenario review.
 - Added rubric notes for visibility-safety scenarios.

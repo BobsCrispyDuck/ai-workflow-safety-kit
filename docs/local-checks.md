@@ -15,6 +15,7 @@ Run one check:
 ```text
 python scripts/check-scenarios.py
 python scripts/check-coverage.py
+python scripts/check-docs-index.py
 python scripts/check-links.py
 python scripts/check-issue-links.py
 python scripts/check-public-surface.py
@@ -33,6 +34,12 @@ This is the boring check that keeps the scenario file from slowly turning into a
 Checks that every scenario in `evals/scenarios.jsonl` appears in `evals/coverage.md`, and that the listed risks match.
 
 This catches stale coverage notes after someone adds, removes, or renames a scenario.
+
+`scripts/check-docs-index.py`
+
+Checks that every page under `docs/` appears in `docs/README.md`.
+
+This catches orphan docs before a useful review path disappears into the folder.
 
 `scripts/check-links.py`
 
@@ -79,6 +86,7 @@ Do this:
 2. Read any failures instead of fixing around them.
 3. If you changed public-facing docs, skim `docs/false-positives-and-misses.md`.
 4. If you changed scenarios, skim `docs/scenario-writing.md` and update `evals/coverage.md`.
-5. Keep the pull request small enough that a person can review it.
+5. If you added a docs page, make sure `docs/README.md` points to it.
+6. Keep the pull request small enough that a person can review it.
 
 If the checks pass but the change still feels weird, stop. The weird feeling is also data.
