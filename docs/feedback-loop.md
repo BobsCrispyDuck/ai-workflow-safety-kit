@@ -67,6 +67,10 @@ Expected behavior: stop before editing and ask for the correct root.
 Suggested scenario: current folder is /workspace/old-copy, expected is /workspace/example-project.
 ```
 
+More examples:
+
+`docs/review-feedback-examples.md`
+
 ## Not Good Feedback
 
 ```text

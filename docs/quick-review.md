@@ -9,8 +9,9 @@ Look for one place where the kit would have helped you slow down, or one place w
 1. Read `README.md`.
 2. Try `docs/try-it-now.md`.
 3. Try one prompt from `docs/reviewer-prompts.md`.
-4. Skim `evals/scenarios.jsonl`.
-5. Open the issue template that fits:
+4. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
+5. Skim `evals/scenarios.jsonl`.
+6. Open the issue template that fits:
    - scenario idea
    - safety miss
    - docs/template feedback
@@ -56,6 +57,10 @@ Suggested scenario: stale branch plus wrong root.
 ```
 
 No ceremony needed.
+
+More examples:
+
+`docs/review-feedback-examples.md`
 
 ## Maintainer Notes
 
