@@ -14,3 +14,5 @@
 - Expanded eval scenarios from 4 to 12.
 - Added a README start-here path.
 - Added a public-release check template.
+- Added a work-session check template.
+- Expanded the eval rubric with examples and common failure modes.

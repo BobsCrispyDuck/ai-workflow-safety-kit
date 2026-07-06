@@ -14,9 +14,9 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 
 If you only copy three things, copy these:
 
-1. `templates/project-root-check.md`
-2. `templates/private-public-data-split.md`
-3. `templates/approval-gate.md`
+1. `templates/work-session-check.md`
+2. `templates/project-root-check.md`
+3. `templates/private-public-data-split.md`
 
 Then try the two-minute walkthrough:
 
@@ -28,7 +28,7 @@ If you are about to publish something, use:
 
 ## What This Kit Includes
 
-- reusable templates for root checks, data boundaries, approval gates, receipts, and final audits
+- reusable templates for session setup, root checks, data boundaries, approval gates, receipts, and final audits
 - a public-release check for the last pause before something leaves your machine
 - checklists for editing, submitting, publishing, and using shared-token projects
 - synthetic examples that show safe, blocked, and approval-needed tasks
@@ -58,17 +58,18 @@ Do not add:
 
 ## Quick Start
 
-1. Read `templates/project-root-check.md`.
-2. Read `templates/private-public-data-split.md`.
-3. Try `docs/demo-walkthrough.md`.
-4. Use `templates/approval-gate.md` before external or irreversible action.
-5. Use `templates/verification-receipt.md` after a task.
-6. Use `templates/final-audit.md` before calling a larger goal complete.
+1. Start with `templates/work-session-check.md`.
+2. Read `templates/project-root-check.md`.
+3. Read `templates/private-public-data-split.md`.
+4. Try `docs/demo-walkthrough.md`.
+5. Use `templates/approval-gate.md` before external or irreversible action.
+6. Use `templates/verification-receipt.md` after a task.
+7. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
 ```text
-request -> root check -> data-safety check -> approval gate -> local work -> verification receipt -> final audit
+request -> work-session check -> root check -> data-safety check -> approval gate -> local work -> verification receipt -> final audit
 ```
 
 If a task involves production, account settings, API keys, user data, billing, private logs, or publication, stop and require explicit approval.
