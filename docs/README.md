@@ -11,6 +11,7 @@ Start with the shortest path that matches what you need.
 - `docs/use-cases.md` - where the kit fits in real workflow moments
 - `docs/try-it-now.md` - no-install test prompt
 - `docs/quick-review.md` - five-minute review path
+- `docs/reviewer-brief.md` - one small ask for reviewers
 - `docs/review-paths.md` - three focused ways to review the repo
 - `docs/known-limits.md` - what this kit does not claim to solve
 - `docs/why-this-exists.md` - the basic reason for the project
@@ -28,6 +29,7 @@ Start with the shortest path that matches what you need.
 ## Giving Feedback
 
 - `docs/reviewer-scorecard.md` - short report format after trying a prompt
+- `docs/reviewer-brief.md` - quick note to send with the repo
 - `docs/review-feedback-examples.md` - useful public-safe feedback examples
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note

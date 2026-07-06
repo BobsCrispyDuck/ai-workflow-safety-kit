@@ -6,6 +6,8 @@ Look for one place where the kit would have helped you slow down, or one place w
 
 If you want a narrower route, use `docs/review-paths.md`.
 
+If you are sending the repo to someone else, use `docs/reviewer-brief.md`.
+
 ## Fast Path
 
 1. Read `README.md`.

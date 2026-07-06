@@ -41,6 +41,7 @@ If you try it, I would rather have one missing failure mode than a general thumb
 Useful asks:
 
 - read `docs/faq.md`
+- read `docs/reviewer-brief.md`
 - try one prompt from `docs/reviewer-prompts.md`
 - fill out `docs/reviewer-scorecard.md`
 - suggest one fake scenario for `evals/scenarios.jsonl`

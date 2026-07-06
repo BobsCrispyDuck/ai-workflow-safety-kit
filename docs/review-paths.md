@@ -4,6 +4,8 @@ If you are looking at this repo cold, do not start by reading every file.
 
 Pick one path, spend a few minutes, and leave the smallest useful note.
 
+For the shortest handoff note, use `docs/reviewer-brief.md`.
+
 ## Path 1: Try The Hard Prompt
 
 Use:
