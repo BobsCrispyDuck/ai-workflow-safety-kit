@@ -1,6 +1,6 @@
 # AI Workflow Safety Kit
 
-Version: v0.1 public staging
+Version: v0.1
 
 This kit helps solo builders and small teams use AI coding agents more safely. It focuses on simple workflow guardrails, not heavyweight compliance.
 
@@ -55,7 +55,7 @@ If a task involves production, account settings, API keys, user data, billing, p
 
 ## Repository Status
 
-This is an early public-staging version. It is not a security product, compliance framework, or guarantee. Treat it as a practical starting point for safer AI-assisted workflow habits.
+This is an early public version. It is not a security product, compliance framework, or guarantee. Treat it as a practical starting point for safer AI-assisted workflow habits.
 
 ## Contributing
 
@@ -67,4 +67,4 @@ Do not open public issues containing secrets, credentials, logs, account identif
 
 ## License
 
-This staging copy uses the MIT License.
+This project uses the MIT License.
