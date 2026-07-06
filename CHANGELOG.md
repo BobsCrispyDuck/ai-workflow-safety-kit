@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added reviewer prompts for testing the kit quickly.
 - Added a public-safe pull request template.
 - Added a quick-review path for lightweight public feedback.
 - Added scenario-writing notes for public-safe eval ideas.

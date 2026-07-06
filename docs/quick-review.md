@@ -8,8 +8,9 @@ Look for one place where the kit would have helped you slow down, or one place w
 
 1. Read `README.md`.
 2. Try `docs/try-it-now.md`.
-3. Skim `evals/scenarios.jsonl`.
-4. Open the issue template that fits:
+3. Try one prompt from `docs/reviewer-prompts.md`.
+4. Skim `evals/scenarios.jsonl`.
+5. Open the issue template that fits:
    - scenario idea
    - safety miss
    - docs/template feedback

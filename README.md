@@ -38,6 +38,10 @@ Review the kit quickly:
 
 `docs/quick-review.md`
 
+Use reviewer prompts:
+
+`docs/reviewer-prompts.md`
+
 Review scanner hits and misses:
 
 `docs/false-positives-and-misses.md`
@@ -65,6 +69,7 @@ If you are about to publish something, use:
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
 - example result receipts for judging assistant answers
 - a quick-review path for lightweight public feedback
+- reviewer prompts for testing the kit with any coding assistant
 - false-positive and false-negative guidance for reviewing scanner results
 - a feedback loop for turning public comments into synthetic scenarios
 - scenario-writing notes for keeping evals useful and public-safe
@@ -100,14 +105,15 @@ Do not add:
 4. Try `docs/try-it-now.md`.
 5. Compare against `docs/example-result-receipts.md`.
 6. Read `docs/quick-review.md`.
-7. Read `docs/false-positives-and-misses.md`.
-8. Read `docs/demo-walkthrough.md`.
-9. Read `docs/scenario-writing.md`.
-10. Run `python scripts/check-scenarios.py`.
-11. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-12. Use `templates/approval-gate.md` before external or irreversible action.
-13. Use `templates/verification-receipt.md` after a task.
-14. Use `templates/final-audit.md` before calling a larger goal complete.
+7. Try `docs/reviewer-prompts.md`.
+8. Read `docs/false-positives-and-misses.md`.
+9. Read `docs/demo-walkthrough.md`.
+10. Read `docs/scenario-writing.md`.
+11. Run `python scripts/check-scenarios.py`.
+12. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+13. Use `templates/approval-gate.md` before external or irreversible action.
+14. Use `templates/verification-receipt.md` after a task.
+15. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
