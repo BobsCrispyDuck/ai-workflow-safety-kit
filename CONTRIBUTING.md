@@ -36,6 +36,8 @@ See `docs/feedback-loop.md` for turning outside feedback into public-safe scenar
 
 See `docs/triage-guide.md` for handling public feedback without carrying private details into the repo.
 
+See `docs/maintainer-checklist.md` for turning one review note into one small safe change.
+
 See `docs/scenario-writing.md` for writing fake-but-useful eval scenarios.
 
 See `docs/first-good-issues.md` if you want one small place to start.

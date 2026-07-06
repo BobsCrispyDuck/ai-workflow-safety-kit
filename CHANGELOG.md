@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a maintainer checklist.
 - Added a review request.
 - Added a repo tour.
 - Added a triage guide.

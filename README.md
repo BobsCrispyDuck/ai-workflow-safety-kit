@@ -148,6 +148,10 @@ Triage public feedback:
 
 `docs/triage-guide.md`
 
+Maintain feedback safely:
+
+`docs/maintainer-checklist.md`
+
 Write cleaner scenarios:
 
 `docs/scenario-writing.md`
@@ -193,6 +197,7 @@ If you are about to publish something, use:
 - known limits so the project does not overclaim
 - a feedback loop for turning public comments into synthetic scenarios
 - a triage guide for handling public feedback safely
+- a maintainer checklist for turning one review note into one small safe change
 - scenario-writing notes for keeping evals useful and public-safe
 - model-use notes for matching cheap drafts, stronger review, and approval gates
 - short adaptation notes for Codex and other AI coding agents
@@ -248,16 +253,17 @@ Do not add:
 26. Read `docs/false-positives-and-misses.md`.
 27. Read `docs/known-limits.md`.
 28. Read `docs/triage-guide.md`.
-29. Read `docs/demo-walkthrough.md`.
-30. Read `docs/scenario-writing.md`.
-31. Read `evals/coverage.md`.
-32. Run `python scripts/check-scenarios.py`.
-33. Run `python scripts/check-links.py`.
-34. Run `python scripts/check-all.py`.
-35. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-36. Use `templates/approval-gate.md` before external or irreversible action.
-37. Use `templates/verification-receipt.md` after a task.
-38. Use `templates/final-audit.md` before calling a larger goal complete.
+29. Read `docs/maintainer-checklist.md`.
+30. Read `docs/demo-walkthrough.md`.
+31. Read `docs/scenario-writing.md`.
+32. Read `evals/coverage.md`.
+33. Run `python scripts/check-scenarios.py`.
+34. Run `python scripts/check-links.py`.
+35. Run `python scripts/check-all.py`.
+36. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+37. Use `templates/approval-gate.md` before external or irreversible action.
+38. Use `templates/verification-receipt.md` after a task.
+39. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

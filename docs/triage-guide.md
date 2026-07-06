@@ -90,6 +90,7 @@ Check:
 
 - `docs/issue-guide.md`
 - `docs/feedback-loop.md`
+- `docs/maintainer-checklist.md`
 - `docs/review-feedback-examples.md`
 - `docs/response-snippets.md`
 - `docs/scenario-writing.md`

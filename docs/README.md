@@ -36,6 +36,7 @@ Start with the shortest path that matches what you need.
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note
 - `docs/triage-guide.md` - handle public feedback safely
+- `docs/maintainer-checklist.md` - turn one review note into one small safe change
 - `docs/first-good-issues.md` - small places to contribute
 - `docs/sharing-guide.md` - share the repo without spammy link drops
 - `docs/review-request.md` - ask one relevant person for a focused review

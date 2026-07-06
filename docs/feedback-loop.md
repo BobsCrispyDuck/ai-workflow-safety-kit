@@ -85,6 +85,10 @@ Triage guide:
 
 `docs/triage-guide.md`
 
+Maintainer checklist:
+
+`docs/maintainer-checklist.md`
+
 ## Not Good Feedback
 
 ```text
