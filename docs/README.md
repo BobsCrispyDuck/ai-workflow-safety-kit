@@ -44,8 +44,11 @@ Start with the shortest path that matches what you need.
 ## Templates And Checks
 
 - `templates/README.md` - choose the right template
+- `checklists/README.md` - choose the right checklist
 
 Core templates live in `templates/`.
+
+Quick checklists live in `checklists/`.
 
 Local checks:
 
