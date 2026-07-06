@@ -45,6 +45,7 @@ Use:
 - `scenario-idea` issue template for a new fake task
 - `safety-miss` issue template for behavior the kit should catch better
 - `docs-template-feedback` issue template for unclear wording
+- `reviewer-scorecard` issue template for a quick report after trying a prompt
 - `evals/scenarios.jsonl` when the feedback becomes a repeatable synthetic test
 - `evals/rubric.md` when the scoring rule is unclear
 - `docs/response-snippets.md` when replying publicly
@@ -75,6 +76,10 @@ More examples:
 Reply snippets:
 
 `docs/response-snippets.md`
+
+Issue guide:
+
+`docs/issue-guide.md`
 
 ## Not Good Feedback
 

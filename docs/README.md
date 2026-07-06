@@ -30,6 +30,7 @@ Start with the shortest path that matches what you need.
 
 - `docs/reviewer-scorecard.md` - short report format after trying a prompt
 - `docs/reviewer-brief.md` - quick note to send with the repo
+- `docs/issue-guide.md` - choose the right public-safe issue template
 - `docs/review-feedback-examples.md` - useful public-safe feedback examples
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added an issue guide.
 - Added a reviewer scorecard issue template.
 - Added a reviewer brief.
 - Expanded eval scenarios from 22 to 24.

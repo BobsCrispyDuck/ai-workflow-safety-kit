@@ -79,4 +79,6 @@ Use the smallest public-safe path:
 - safety miss
 - docs/template feedback
 
+For help choosing, use `docs/issue-guide.md`.
+
 If the real story needs private context to make sense, do not post it as-is. Strip it down to the behavior.

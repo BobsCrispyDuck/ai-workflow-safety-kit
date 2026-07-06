@@ -26,8 +26,11 @@ Use the issue templates when possible.
 - Scenario ideas should be fake and reusable.
 - Safety misses should be sanitized before posting.
 - Docs feedback should stay small and specific.
+- Reviewer scorecards should report one small test, not a full private transcript.
 
 See `docs/quick-review.md` for the fastest way to review the kit without reading every file.
+
+See `docs/issue-guide.md` for choosing the right public-safe issue template.
 
 See `docs/feedback-loop.md` for turning outside feedback into public-safe scenarios or docs changes.
 
