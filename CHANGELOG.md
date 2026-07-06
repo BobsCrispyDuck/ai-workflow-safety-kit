@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added an issue-template link checker.
 - Expanded eval scenarios from 24 to 26.
 - Added a review packet for one clean reviewer handoff.
 - Added direct feedback issue links to review docs.

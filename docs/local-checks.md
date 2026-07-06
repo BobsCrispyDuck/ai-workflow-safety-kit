@@ -15,6 +15,7 @@ Run one check:
 ```text
 python scripts/check-scenarios.py
 python scripts/check-links.py
+python scripts/check-issue-links.py
 python scripts/check-public-surface.py
 ```
 
@@ -31,6 +32,12 @@ This is the boring check that keeps the scenario file from slowly turning into a
 Checks local markdown links and obvious local file references.
 
 This catches renamed docs, moved templates, and links that worked on one machine but not in the repo.
+
+`scripts/check-issue-links.py`
+
+Checks GitHub issue links that use `issues/new?template=...` and confirms the referenced issue-template file exists locally.
+
+This catches broken feedback paths before people try to use them.
 
 `scripts/check-public-surface.py`
 

@@ -144,6 +144,10 @@ Check local doc links:
 
 `python scripts/check-links.py`
 
+Check feedback issue links:
+
+`python scripts/check-issue-links.py`
+
 Understand local checks:
 
 `docs/local-checks.md`
@@ -257,6 +261,7 @@ If you are about to publish something, use:
 - an eval coverage map for spotting thin areas
 - a small local check for the synthetic scenario file
 - a small local check for internal doc links
+- a small local check for public feedback issue-template links
 - a small public-surface check for obvious private paths and generated-by-AI residue
 - local-check notes explaining what the checks do and do not prove
 - a one-command local check runner
