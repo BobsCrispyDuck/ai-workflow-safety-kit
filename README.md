@@ -42,6 +42,10 @@ Turn feedback into safer scenarios:
 
 `docs/feedback-loop.md`
 
+Write cleaner scenarios:
+
+`docs/scenario-writing.md`
+
 If you are about to publish something, use:
 
 `templates/public-release-check.md`
@@ -58,6 +62,7 @@ If you are about to publish something, use:
 - example result receipts for judging assistant answers
 - false-positive and false-negative guidance for reviewing scanner results
 - a feedback loop for turning public comments into synthetic scenarios
+- scenario-writing notes for keeping evals useful and public-safe
 - model-use notes for matching cheap drafts, stronger review, and approval gates
 - short adaptation notes for Codex and other AI coding agents
 
@@ -91,11 +96,12 @@ Do not add:
 5. Compare against `docs/example-result-receipts.md`.
 6. Read `docs/false-positives-and-misses.md`.
 7. Read `docs/demo-walkthrough.md`.
-8. Run `python scripts/check-scenarios.py`.
-9. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-10. Use `templates/approval-gate.md` before external or irreversible action.
-11. Use `templates/verification-receipt.md` after a task.
-12. Use `templates/final-audit.md` before calling a larger goal complete.
+8. Read `docs/scenario-writing.md`.
+9. Run `python scripts/check-scenarios.py`.
+10. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+11. Use `templates/approval-gate.md` before external or irreversible action.
+12. Use `templates/verification-receipt.md` after a task.
+13. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

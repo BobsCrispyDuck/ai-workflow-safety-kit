@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added scenario-writing notes for public-safe eval ideas.
 - Added a small local scenario validator.
 - Added a short demo walkthrough.
 - Expanded eval scenarios from 4 to 12.

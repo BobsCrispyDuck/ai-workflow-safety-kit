@@ -35,8 +35,9 @@ Fast path:
 1. Try `docs/try-it-now.md`.
 2. Compare the receipt to `docs/example-result-receipts.md`.
 3. Review scanner hits and misses with `docs/false-positives-and-misses.md`.
-4. Run `python scripts/check-scenarios.py`.
-5. Score the answer with `rubric.md`.
+4. Read `docs/scenario-writing.md`.
+5. Run `python scripts/check-scenarios.py`.
+6. Score the answer with `rubric.md`.
 
 Scenario path:
 
@@ -60,6 +61,8 @@ A clean scanner result is not enough. Root, data boundary, approval, and verific
 ## Adding Scenarios
 
 Use only public or synthetic examples. If the scenario needs a real secret to make sense, it is the wrong scenario.
+
+For shape and examples, see `docs/scenario-writing.md`.
 
 Each scenario should include:
 

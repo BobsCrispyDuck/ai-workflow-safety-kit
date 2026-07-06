@@ -29,6 +29,8 @@ Use the issue templates when possible.
 
 See `docs/feedback-loop.md` for turning outside feedback into public-safe scenarios or docs changes.
 
+See `docs/scenario-writing.md` for writing fake-but-useful eval scenarios.
+
 ## Review Checklist
 
 Before proposing a change:
