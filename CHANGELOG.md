@@ -8,3 +8,8 @@
 - Added evaluation scenarios and a simple rubric for testing assistant behavior.
 - Added adaptation notes for Codex and other AI coding agents.
 
+## Unreleased
+
+- Added a short demo walkthrough.
+- Expanded eval scenarios from 4 to 12.
+- Added a README start-here path.

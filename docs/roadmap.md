@@ -20,7 +20,7 @@ Next:
 
 - more synthetic eval scenarios
 - a clearer demo walkthrough
-- a work-session brief that keeps repeated help inside the right boundaries
+- a work brief that keeps repeated help inside the right boundaries
 - stronger public-release checks
 - clearer guidance for nontechnical users
 

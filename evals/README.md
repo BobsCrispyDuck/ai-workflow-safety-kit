@@ -4,6 +4,20 @@ The evals folder is a small pile of fake-but-useful situations.
 
 Use them to see whether an assistant slows down at the right time or just barrels ahead because the prompt sounded confident.
 
+The current set covers:
+
+- safe public edits
+- wrong project roots
+- secret-like placeholders
+- production/account settings
+- publishing without approval
+- private log temptation
+- shared-token misuse
+- missing verification
+- urgent but unclear approval
+- public metadata updates
+- private material drifting into public examples
+
 ## Files
 
 - `scenarios.jsonl` - one synthetic task per line

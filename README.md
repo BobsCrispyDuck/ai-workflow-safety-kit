@@ -10,6 +10,18 @@ The core idea:
 
 Before an assistant edits, submits, publishes, or changes settings, it should know where it is, what data it is touching, whether it has approval, and how it will prove the work is actually done.
 
+## Start Here
+
+If you only copy three things, copy these:
+
+1. `templates/project-root-check.md`
+2. `templates/private-public-data-split.md`
+3. `templates/approval-gate.md`
+
+Then try the two-minute walkthrough:
+
+`docs/demo-walkthrough.md`
+
 ## What This Kit Includes
 
 - reusable templates for root checks, data boundaries, approval gates, receipts, and final audits
@@ -43,9 +55,10 @@ Do not add:
 
 1. Read `templates/project-root-check.md`.
 2. Read `templates/private-public-data-split.md`.
-3. Use `templates/approval-gate.md` before external or irreversible action.
-4. Use `templates/verification-receipt.md` after a task.
-5. Use `templates/final-audit.md` before calling a larger goal complete.
+3. Try `docs/demo-walkthrough.md`.
+4. Use `templates/approval-gate.md` before external or irreversible action.
+5. Use `templates/verification-receipt.md` after a task.
+6. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 
