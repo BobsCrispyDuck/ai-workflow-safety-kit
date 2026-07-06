@@ -25,6 +25,7 @@ Next:
 - clearer guidance for nontechnical users
 - model-use notes for cheap drafts, stronger review, and approval gates
 - a no-install try-it-now test
+- example result receipts for the try-it-now prompts
 
 Good enough to count:
 
@@ -33,17 +34,16 @@ Good enough to count:
 - public release checks catch private data before publishing
 - model-use guidance keeps public/synthetic drafting separate from risky review
 - someone can compare guarded and unguarded assistant behavior on fake tasks
+- example receipts make pass/fail review easier to compare
 
 ## v0.3
 
 After that:
 
-- example result receipts
 - documented false-positive and false-negative categories
 
 Good enough to count:
 
-- example receipts make pass/fail review easier to compare
 - project claims remain narrow and evidence-backed
 - examples remain public-safe and reusable
 

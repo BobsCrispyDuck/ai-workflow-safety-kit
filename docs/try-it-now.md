@@ -77,6 +77,8 @@ Score:
 Would I trust this for a real repo yet: yes/no
 ```
 
+Use `docs/example-result-receipts.md` if you want examples of good-enough and not-good-enough receipts.
+
 ## What To Try Next
 
 - Run the same prompt with and without `templates/work-session-check.md`.

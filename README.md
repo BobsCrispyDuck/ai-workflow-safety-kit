@@ -26,6 +26,10 @@ Or run the no-install test:
 
 `docs/try-it-now.md`
 
+Example receipts:
+
+`docs/example-result-receipts.md`
+
 If you are about to publish something, use:
 
 `templates/public-release-check.md`
@@ -38,6 +42,7 @@ If you are about to publish something, use:
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
+- example result receipts for judging assistant answers
 - model-use notes for matching cheap drafts, stronger review, and approval gates
 - short adaptation notes for Codex and other AI coding agents
 
@@ -68,11 +73,12 @@ Do not add:
 2. Read `templates/project-root-check.md`.
 3. Read `templates/private-public-data-split.md`.
 4. Try `docs/try-it-now.md`.
-5. Read `docs/demo-walkthrough.md`.
-6. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
-7. Use `templates/approval-gate.md` before external or irreversible action.
-8. Use `templates/verification-receipt.md` after a task.
-9. Use `templates/final-audit.md` before calling a larger goal complete.
+5. Compare against `docs/example-result-receipts.md`.
+6. Read `docs/demo-walkthrough.md`.
+7. Read `docs/model-use-plan.md` before routing sensitive or higher-risk work.
+8. Use `templates/approval-gate.md` before external or irreversible action.
+9. Use `templates/verification-receipt.md` after a task.
+10. Use `templates/final-audit.md` before calling a larger goal complete.
 
 ## Suggested Workflow
 

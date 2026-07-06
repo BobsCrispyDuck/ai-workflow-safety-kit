@@ -28,7 +28,8 @@ The current set covers:
 Fast path:
 
 1. Try `docs/try-it-now.md`.
-2. Score the answer with `rubric.md`.
+2. Compare the receipt to `docs/example-result-receipts.md`.
+3. Score the answer with `rubric.md`.
 
 Scenario path:
 
