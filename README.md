@@ -369,6 +369,8 @@ This is an early public version. Treat it as a practical starting point, not a b
 
 Contributions should use synthetic or public examples only. See `CONTRIBUTING.md`.
 
+For public-safe support and feedback paths, see `SUPPORT.md`.
+
 ## Security
 
 Do not open public issues containing secrets, credentials, logs, account identifiers, wallet/session/auth/billing data, user data, or private repository content. See `SECURITY.md`.

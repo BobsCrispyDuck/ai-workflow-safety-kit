@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added public support guidance.
 - Added feedback links to the sharing guide.
 - Added direct feedback issue links.
 - Added a README feedback ask.
