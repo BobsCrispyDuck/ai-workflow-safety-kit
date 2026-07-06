@@ -47,6 +47,7 @@ Use:
 - `docs-template-feedback` issue template for unclear wording
 - `evals/scenarios.jsonl` when the feedback becomes a repeatable synthetic test
 - `evals/rubric.md` when the scoring rule is unclear
+- `docs/response-snippets.md` when replying publicly
 
 ## Triage Questions
 
@@ -70,6 +71,10 @@ Suggested scenario: current folder is /workspace/old-copy, expected is /workspac
 More examples:
 
 `docs/review-feedback-examples.md`
+
+Reply snippets:
+
+`docs/response-snippets.md`
 
 ## Not Good Feedback
 

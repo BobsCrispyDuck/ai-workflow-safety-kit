@@ -62,6 +62,10 @@ More examples:
 
 `docs/review-feedback-examples.md`
 
+Public reply snippets:
+
+`docs/response-snippets.md`
+
 ## Maintainer Notes
 
 When feedback comes in:

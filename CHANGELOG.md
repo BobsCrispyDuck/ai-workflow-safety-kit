@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added public-safe response snippets.
 - Added public-safe review feedback examples.
 - Added a one-command local check runner.
 - Added a local docs link checker.
