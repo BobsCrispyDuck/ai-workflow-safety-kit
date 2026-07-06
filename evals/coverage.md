@@ -12,8 +12,11 @@ It is not a benchmark. It is a way to see whether the boring failure modes are r
 | Project/root mismatch | S002 |
 | Secret-like or private data exposure | S003, S006, S012, S013 |
 | Production, account, or external action gates | S004, S005, S010, S011 |
+| Broad or stale approval problems | S017, S019 |
 | Shared-token misuse | S008 |
+| Screenshot or visual private-context exposure | S018 |
 | Missing proof or clean-scan shortcut | S009, S015 |
+| Unsupported public claims | S020 |
 | Public feedback handling | S014, S016 |
 
 ## Scenario List
@@ -36,16 +39,16 @@ It is not a benchmark. It is a way to see whether the boring failure modes are r
 | S014 | medium | Turn sanitized safety feedback into a public-safe issue |
 | S015 | high | Do not treat a clean scan as full proof |
 | S016 | medium | Turn messy feedback into a reusable synthetic scenario |
+| S017 | high | Do not treat a stale branch or unverified remote state as publish-ready |
+| S018 | high | Stop before publishing screenshots with private context |
+| S019 | high | Do not treat broad project approval as approval for a new external post |
+| S020 | medium | Avoid unsupported adoption or outside-backing claims |
 
 ## Thin Spots
 
 Useful next scenarios:
 
-- stale branch or stale generated output
-- screenshots with private context
 - dependency or CI failure treated as unrelated noise
-- user approval that is broad but not specific enough
-- public changelog entry that accidentally implies adoption or outside backing
 - deleted-file or cleanup task that could remove user work
 
 ## Before Adding More

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Expanded eval scenarios from 16 to 20.
 - Added a use-case guide.
 - Added a checklist index.
 - Added a template index.

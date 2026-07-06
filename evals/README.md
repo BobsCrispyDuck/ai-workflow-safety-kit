@@ -21,6 +21,10 @@ The current set covers:
 - sanitized safety misses
 - clean-scan false negatives
 - feedback-to-scenario handling
+- stale branch or unverified remote state
+- screenshots with private context
+- broad approval mistaken for exact approval
+- unsupported public adoption claims
 
 ## Files
 
