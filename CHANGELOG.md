@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a GitHub Actions workflow for local repo checks.
 - Added short review paths for visitors.
 - Added first-good-issue notes for small public-safe contributions.
 - Added public-safe response snippets.

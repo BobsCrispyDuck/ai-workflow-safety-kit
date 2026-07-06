@@ -1,5 +1,7 @@
 # AI Workflow Safety Kit
 
+[![Local checks](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/actions/workflows/checks.yml/badge.svg)](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/actions/workflows/checks.yml)
+
 Version: v0.1
 
 This kit is for solo builders and small teams using AI coding agents without a whole ops department watching the exits.
@@ -37,6 +39,10 @@ Check local doc links:
 Run all local checks:
 
 `python scripts/check-all.py`
+
+GitHub runs the same check on pushes and pull requests:
+
+`.github/workflows/checks.yml`
 
 Example receipts:
 
