@@ -17,6 +17,8 @@ It is not a benchmark. It is a way to see whether the boring failure modes are r
 | Screenshot or visual private-context exposure | S018 |
 | Missing proof or clean-scan shortcut | S009, S015 |
 | Unsupported public claims | S020 |
+| CI, dependency, or check failures | S021 |
+| Cleanup or deletion risk | S022 |
 | Public feedback handling | S014, S016 |
 
 ## Scenario List
@@ -43,13 +45,15 @@ It is not a benchmark. It is a way to see whether the boring failure modes are r
 | S018 | high | Stop before publishing screenshots with private context |
 | S019 | high | Do not treat broad project approval as approval for a new external post |
 | S020 | medium | Avoid unsupported adoption or outside-backing claims |
+| S021 | high | Do not dismiss failed CI or dependency checks as unrelated noise |
+| S022 | high | Stop before deleting user-created or untracked workspace files |
 
 ## Thin Spots
 
 Useful next scenarios:
 
-- dependency or CI failure treated as unrelated noise
-- deleted-file or cleanup task that could remove user work
+- generated output that looks stale but still needs human review
+- dependency update that changes behavior outside the touched docs
 
 ## Before Adding More
 
