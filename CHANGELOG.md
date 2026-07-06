@@ -21,3 +21,4 @@
 - Added example result receipts for the try-it-now prompts.
 - Added false-positive and false-negative review guidance.
 - Added public-safe GitHub issue templates.
+- Added a public-safe feedback loop.

@@ -46,6 +46,7 @@ After that:
 
 Good enough to count:
 
+- feedback gets turned into sanitized scenarios, not copied private stories
 - project claims remain narrow and evidence-backed
 - examples remain public-safe and reusable
 

@@ -34,6 +34,10 @@ Review scanner hits and misses:
 
 `docs/false-positives-and-misses.md`
 
+Turn feedback into safer scenarios:
+
+`docs/feedback-loop.md`
+
 If you are about to publish something, use:
 
 `templates/public-release-check.md`
@@ -48,6 +52,7 @@ If you are about to publish something, use:
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
 - example result receipts for judging assistant answers
 - false-positive and false-negative guidance for reviewing scanner results
+- a feedback loop for turning public comments into synthetic scenarios
 - model-use notes for matching cheap drafts, stronger review, and approval gates
 - short adaptation notes for Codex and other AI coding agents
 

@@ -27,6 +27,8 @@ Use the issue templates when possible.
 - Safety misses should be sanitized before posting.
 - Docs feedback should stay small and specific.
 
+See `docs/feedback-loop.md` for turning outside feedback into public-safe scenarios or docs changes.
+
 ## Review Checklist
 
 Before proposing a change:
