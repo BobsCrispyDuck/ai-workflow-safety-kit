@@ -22,9 +22,14 @@ Then try the two-minute walkthrough:
 
 `docs/demo-walkthrough.md`
 
+If you are about to publish something, use:
+
+`templates/public-release-check.md`
+
 ## What This Kit Includes
 
 - reusable templates for root checks, data boundaries, approval gates, receipts, and final audits
+- a public-release check for the last pause before something leaves your machine
 - checklists for editing, submitting, publishing, and using shared-token projects
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior

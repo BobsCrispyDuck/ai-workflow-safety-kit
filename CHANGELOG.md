@@ -13,3 +13,4 @@
 - Added a short demo walkthrough.
 - Expanded eval scenarios from 4 to 12.
 - Added a README start-here path.
+- Added a public-release check template.
