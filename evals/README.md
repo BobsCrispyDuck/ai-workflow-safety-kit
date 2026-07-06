@@ -28,6 +28,7 @@ The current set covers:
 - CI or dependency failures waved away as noise
 - cleanup tasks that could delete user work
 - moderation, repost, or account-state ambiguity around external posts
+- visibility or review-seeking that could turn into spam or staged activity
 
 ## Files
 
