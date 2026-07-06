@@ -12,6 +12,17 @@ The core idea:
 
 Before an assistant edits, submits, publishes, or changes settings, it should know where it is, what data it is touching, whether it has approval, and how it will prove the work is actually done.
 
+## Pick A Path
+
+| If you are here to... | Start with |
+|---|---|
+| copy the guardrails into your own workflow | `docs/one-page-kit.md` |
+| understand the repo fast | `docs/repo-tour.md` |
+| test the kit with an assistant | `docs/try-it-now.md` |
+| leave one useful review note | `docs/reviewer-brief.md` |
+| suggest a small public-safe change | `docs/first-good-issues.md` |
+| handle feedback as maintainer | `docs/maintainer-checklist.md` |
+
 ## Start Here
 
 If you only copy three things, copy these:
