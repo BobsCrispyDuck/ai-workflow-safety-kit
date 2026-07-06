@@ -13,6 +13,7 @@ Start with the shortest path that matches what you need.
 - `docs/use-cases.md` - where the kit fits in real workflow moments
 - `docs/try-it-now.md` - no-install test prompt
 - `docs/quick-review.md` - five-minute review path
+- `docs/review-packet.md` - one clean handoff to send a reviewer
 - `docs/reviewer-brief.md` - one small ask for reviewers
 - `docs/review-paths.md` - three focused ways to review the repo
 - `docs/known-limits.md` - what this kit does not claim to solve
@@ -31,6 +32,7 @@ Start with the shortest path that matches what you need.
 ## Giving Feedback
 
 - `docs/reviewer-scorecard.md` - short report format after trying a prompt
+- `docs/review-packet.md` - send one useful review ask without making it a launch
 - `docs/reviewer-brief.md` - quick note to send with the repo
 - `docs/issue-guide.md` - choose the right public-safe issue template
 - `docs/review-feedback-examples.md` - useful public-safe feedback examples

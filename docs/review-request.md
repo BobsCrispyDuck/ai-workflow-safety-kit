@@ -16,6 +16,10 @@ If you have 10 minutes, I would rather get one missing failure mode than a gener
 The quickest path is the "What Would Help Most" section in the README or docs/reviewer-brief.md.
 ```
 
+Clean handoff link:
+
+`docs/review-packet.md`
+
 ## More Specific Ask
 
 ```text
@@ -30,6 +34,9 @@ https://github.com/BobsCrispyDuck/ai-workflow-safety-kit
 
 Useful starting point:
 README.md
+
+Clean handoff:
+docs/review-packet.md
 
 Or, if you want the short review format:
 docs/reviewer-brief.md

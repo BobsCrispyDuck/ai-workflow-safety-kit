@@ -20,6 +20,7 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | add the kit to an existing repo | `docs/copy-into-your-repo.md` |
 | understand the repo fast | `docs/repo-tour.md` |
 | test the kit with an assistant | `docs/try-it-now.md` |
+| send one clean review handoff | `docs/review-packet.md` |
 | leave one useful review note | `docs/reviewer-brief.md` |
 | suggest a small public-safe change | `docs/first-good-issues.md` |
 | handle feedback as maintainer | `docs/maintainer-checklist.md` |
@@ -171,6 +172,10 @@ Review the kit quickly:
 
 `docs/quick-review.md`
 
+Send a review packet:
+
+`docs/review-packet.md`
+
 Send a reviewer brief:
 
 `docs/reviewer-brief.md`
@@ -267,6 +272,7 @@ If you are about to publish something, use:
 - a fake filled-in project-instructions example
 - example result receipts for judging assistant answers
 - a quick-review path for lightweight public feedback
+- a review packet for sending one clean handoff to a reviewer
 - a reviewer brief for one small useful note
 - three short review paths for visitors who do not want to read the whole repo
 - reviewer prompts for testing the kit with any coding assistant
