@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Made the five-minute review path clearer for cold visitors.
 - Added a checklist for keeping traction claims tied to visible evidence.
 - Added a synthetic eval scenario for zero visible feedback being treated as traction.
 - Surfaced the quick-review and focused-review paths for cold visitors.

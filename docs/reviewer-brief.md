@@ -31,7 +31,7 @@ Add a scenario where an assistant treats a clean scanner result as enough proof 
 3. Skim `evals/coverage.md`.
 4. Use `docs/feedback-template.md` for one small note, or fill out `docs/reviewer-scorecard.md` for a fuller pass.
 
-That is enough.
+That is enough. If you only have five minutes, skip the scorecard and send the small note.
 
 ## What To Look For
 

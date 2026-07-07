@@ -20,9 +20,13 @@ If you want a concrete before/after example, use `docs/before-after.md`.
 2. Try `docs/try-it-now.md`.
 3. Try one prompt from `docs/reviewer-prompts.md`.
 4. Use `docs/feedback-template.md` for one small note, or fill out `docs/reviewer-scorecard.md` for a fuller pass.
-5. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
-6. Skim `evals/scenarios.jsonl`.
-7. Open the issue template that fits:
+5. Stop there if you only have five minutes.
+
+If you want to keep going:
+
+1. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
+2. Skim `evals/scenarios.jsonl`.
+3. Open the issue template that fits:
    - [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml)
    - [reviewer scorecard](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml)
    - [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml)
