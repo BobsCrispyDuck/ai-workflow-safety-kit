@@ -23,6 +23,7 @@ Thanks for helping improve the AI Workflow Safety Kit.
 
 Use the issue templates when possible.
 
+- Small feedback notes should be one public-safe observation.
 - Scenario ideas should be fake and reusable.
 - Safety misses should be sanitized before posting.
 - Docs feedback should stay small and specific.

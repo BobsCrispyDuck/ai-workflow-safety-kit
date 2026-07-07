@@ -67,6 +67,10 @@ Then leave feedback using:
 - `docs/review-feedback-examples.md`
 - `docs/response-snippets.md`
 
+Smallest GitHub path:
+
+https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml
+
 ## Before Opening A PR
 
 Run:

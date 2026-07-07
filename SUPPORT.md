@@ -8,6 +8,7 @@ The most useful support request is a public-safe note that helps make the kit cl
 
 Use these when your note can be shared without private details:
 
+- [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml) - one short public-safe note
 - [reviewer scorecard](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml) - you tried one prompt or scenario
 - [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml) - the kit is missing a fake workflow case
 - [safety miss](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=safety-miss.yml) - the assistant should have stopped but did not

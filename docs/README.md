@@ -37,6 +37,7 @@ Start with the shortest path that matches what you need.
 
 ## Giving Feedback
 
+- [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml) - one short public-safe note
 - `docs/reviewer-scorecard.md` - short report format after trying a prompt
 - `docs/review-packet.md` - send one useful review ask without making it a launch
 - `docs/reviewer-brief.md` - quick note to send with the repo

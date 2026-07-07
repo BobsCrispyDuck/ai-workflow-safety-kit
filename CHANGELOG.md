@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Made the smallest public-safe feedback path clearer from the README, support, and contributor docs.
 - Added the small-feedback issue path to reviewer and sharing docs.
 - Added a small-feedback issue template for one public-safe review note.
 - Linked the feedback template from quick reviewer paths.
