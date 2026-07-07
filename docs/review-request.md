@@ -43,7 +43,10 @@ docs/review-packet.md
 Or, if you want the short review format:
 docs/reviewer-brief.md
 
-GitHub scorecard:
+Smallest GitHub feedback path:
+https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml
+
+Fuller GitHub scorecard:
 https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml
 ```
 

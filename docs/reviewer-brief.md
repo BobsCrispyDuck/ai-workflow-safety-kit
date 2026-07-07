@@ -74,6 +74,6 @@ For more structure, use `docs/reviewer-scorecard.md`.
 
 For a smaller note, use `docs/feedback-template.md`.
 
-On GitHub, use the [reviewer scorecard issue template](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml).
+On GitHub, use the [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml) for one short note, or the [reviewer scorecard issue template](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml) for a fuller pass.
 
 For examples, use `docs/review-feedback-examples.md`.

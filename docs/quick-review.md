@@ -23,6 +23,7 @@ If you want a concrete before/after example, use `docs/before-after.md`.
 5. Use `docs/review-feedback-examples.md` if you want a model for what to send back.
 6. Skim `evals/scenarios.jsonl`.
 7. Open the issue template that fits:
+   - [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml)
    - [reviewer scorecard](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml)
    - [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml)
    - [safety miss](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=safety-miss.yml)
@@ -81,6 +82,10 @@ Scorecard:
 Small feedback template:
 
 `docs/feedback-template.md`
+
+GitHub small feedback note:
+
+https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml
 
 Known limits:
 
