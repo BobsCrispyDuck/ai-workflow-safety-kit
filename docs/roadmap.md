@@ -32,6 +32,7 @@ What has landed:
 - public-safe issue templates and support guidance
 - local checks for scenarios, doc links, and obvious public-surface mistakes
 - maintainer flow for reviewing AI-assisted PRs without private context
+- PR receipt examples for AI-assisted pull requests
 - before/after example showing the guardrail effect on a fake task
 
 Still worth improving:

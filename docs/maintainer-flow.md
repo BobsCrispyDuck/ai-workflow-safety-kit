@@ -28,6 +28,8 @@ Approval needed:
 
 If that feels too formal, use the repo's `.github/PULL_REQUEST_TEMPLATE.md`.
 
+For examples of good and weak receipts, use `docs/pr-receipt-examples.md`.
+
 ## What To Require
 
 For a normal docs or code change, ask for:
@@ -102,5 +104,6 @@ Useful next pages:
 
 - `docs/first-good-issues.md`
 - `docs/maintainer-checklist.md`
+- `docs/pr-receipt-examples.md`
 - `docs/review-feedback-examples.md`
 - `docs/response-snippets.md`

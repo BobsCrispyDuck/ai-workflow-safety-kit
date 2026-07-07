@@ -47,6 +47,19 @@ Why this works:
 - no private context
 - easy to turn into a docs edit
 
+## Good: PR Receipt Request
+
+```text
+The PR says an assistant checked everything, but it does not list files or checks.
+Suggested maintainer reply: please add changed files, checks run, data used, and what still needs review.
+```
+
+Why this works:
+
+- asks for reviewable proof
+- does not ask for transcripts or logs
+- keeps the PR moving without exposing private context
+
 ## Not Good: Too Much Private Context
 
 ```text

@@ -13,6 +13,7 @@ Start with the shortest path that matches what you need.
 - `docs/one-page-kit.md` - copy the core rails on one page
 - `docs/use-cases.md` - where the kit fits in real workflow moments
 - `docs/maintainer-flow.md` - review AI-assisted PRs without private context
+- `docs/pr-receipt-examples.md` - examples of useful AI-assisted PR receipts
 - `docs/try-it-now.md` - no-install test prompt
 - `docs/before-after.md` - fake before/after showing the guardrail effect
 - `docs/quick-review.md` - five-minute review path
@@ -45,6 +46,7 @@ Start with the shortest path that matches what you need.
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note
 - `docs/triage-guide.md` - handle public feedback safely
 - `docs/maintainer-flow.md` - small flow for maintainers reviewing AI-assisted work
+- `docs/pr-receipt-examples.md` - good and weak receipt examples for AI-assisted PRs
 - `docs/maintainer-checklist.md` - turn one review note into one small safe change
 - `docs/first-good-issues.md` - small places to contribute
 - `docs/sharing-guide.md` - share the repo without spammy link drops

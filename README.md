@@ -25,6 +25,7 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | send one clean review handoff | `docs/review-packet.md` |
 | leave one useful review note | `docs/reviewer-brief.md` |
 | maintain a repo with AI-assisted PRs | `docs/maintainer-flow.md` |
+| ask for an AI-assisted PR receipt | `docs/pr-receipt-examples.md` |
 | suggest a small public-safe change | `docs/first-good-issues.md` |
 | handle feedback as maintainer | `docs/maintainer-checklist.md` |
 
@@ -259,6 +260,10 @@ Use it as a maintainer:
 
 `docs/maintainer-flow.md`
 
+Ask for a PR receipt:
+
+`docs/pr-receipt-examples.md`
+
 Maintain feedback safely:
 
 `docs/maintainer-checklist.md`
@@ -315,6 +320,7 @@ If you are about to publish something, use:
 - a review request for asking one relevant person without spam
 - first-good-issue notes for small public-safe contributions
 - a maintainer flow for reviewing AI-assisted PRs without private context
+- PR receipt examples for AI-assisted pull requests
 - false-positive and false-negative guidance for reviewing scanner results
 - known limits so the project does not overclaim
 - a feedback loop for turning public comments into synthetic scenarios

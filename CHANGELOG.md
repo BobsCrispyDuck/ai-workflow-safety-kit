@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added AI-assisted PR receipt examples.
 - Expanded eval scenarios from 26 to 28 for AI-assisted PR review.
 - Added a synthetic before/after guardrail example.
 - Added a maintainer flow for AI-assisted PR review.
