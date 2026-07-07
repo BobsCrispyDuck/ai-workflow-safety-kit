@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Tightened scenario validation for sequential IDs and unexpected fields.
 - Added AI-assisted PR receipt examples.
 - Expanded eval scenarios from 26 to 28 for AI-assisted PR review.
 - Added a synthetic before/after guardrail example.

@@ -32,9 +32,11 @@ This catches new checks that work locally but disappear from the normal review p
 
 `scripts/check-scenarios.py`
 
-Checks that every line in `evals/scenarios.jsonl` is valid JSON and has the required fields.
+Checks that every line in `evals/scenarios.jsonl` is valid JSON, has the required fields, uses an allowed risk, and keeps scenario IDs sequential.
 
-This is the boring check that keeps the scenario file from slowly turning into almost-JSON.
+It also rejects unexpected fields so private notes or one-off metadata do not quietly become part of the public eval file.
+
+This is the boring check that keeps the scenario file from slowly turning into almost-JSON or almost-a-database.
 
 `scripts/check-coverage.py`
 

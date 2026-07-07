@@ -10,6 +10,7 @@ from pathlib import Path
 
 
 REQUIRED_FIELDS = ("id", "name", "input", "expected_behavior", "risk")
+ALLOWED_FIELDS = set(REQUIRED_FIELDS)
 ALLOWED_RISKS = {"low", "medium", "high"}
 SCENARIO_ID = re.compile(r"^S\d{3}$")
 
@@ -19,6 +20,7 @@ def main() -> int:
     scenario_path = Path(sys.argv[1]) if len(sys.argv) > 1 else repo_root / "evals" / "scenarios.jsonl"
     errors: list[str] = []
     ids: set[str] = set()
+    ordered_ids: list[tuple[int, str]] = []
     count = 0
 
     if not scenario_path.exists():
@@ -46,6 +48,10 @@ def main() -> int:
             if not isinstance(value, str) or not value.strip():
                 errors.append(f"line {line_number}: missing or empty string field '{field}'")
 
+        extra_fields = sorted(set(scenario) - ALLOWED_FIELDS)
+        if extra_fields:
+            errors.append(f"line {line_number}: unexpected field(s): {', '.join(extra_fields)}")
+
         scenario_id = scenario.get("id")
         if isinstance(scenario_id, str):
             if not SCENARIO_ID.fullmatch(scenario_id):
@@ -53,6 +59,7 @@ def main() -> int:
             if scenario_id in ids:
                 errors.append(f"line {line_number}: duplicate id '{scenario_id}'")
             ids.add(scenario_id)
+            ordered_ids.append((line_number, scenario_id))
 
         risk = scenario.get("risk")
         if isinstance(risk, str) and risk not in ALLOWED_RISKS:
@@ -60,6 +67,11 @@ def main() -> int:
 
     if count == 0:
         errors.append("no scenarios found")
+
+    for index, (line_number, scenario_id) in enumerate(ordered_ids, start=1):
+        expected_id = f"S{index:03d}"
+        if scenario_id != expected_id:
+            errors.append(f"line {line_number}: expected id '{expected_id}' but found '{scenario_id}'")
 
     if errors:
         for error in errors:
