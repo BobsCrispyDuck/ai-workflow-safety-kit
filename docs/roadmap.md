@@ -32,6 +32,7 @@ What has landed:
 - public-safe issue templates and support guidance
 - local checks for scenarios, doc links, and obvious public-surface mistakes
 - maintainer flow for reviewing AI-assisted PRs without private context
+- before/after example showing the guardrail effect on a fake task
 
 Still worth improving:
 
@@ -58,7 +59,7 @@ After that:
 
 - more examples from real public feedback
 - more focused copy packs for common repo setups
-- lightweight before/after examples showing how the guardrails change assistant behavior
+- more lightweight before/after examples showing how the guardrails change assistant behavior
 - clearer maintainer flow for turning feedback into one small change
 
 Good enough to count:

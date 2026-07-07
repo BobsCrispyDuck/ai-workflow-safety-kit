@@ -21,6 +21,7 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | understand the repo fast | `docs/repo-tour.md` |
 | check current repo health | `docs/repo-health.md` |
 | test the kit with an assistant | `docs/try-it-now.md` |
+| see the guardrails change an answer | `docs/before-after.md` |
 | send one clean review handoff | `docs/review-packet.md` |
 | leave one useful review note | `docs/reviewer-brief.md` |
 | maintain a repo with AI-assisted PRs | `docs/maintainer-flow.md` |
@@ -117,6 +118,10 @@ Before asking for review:
 Then try the two-minute walkthrough:
 
 `docs/demo-walkthrough.md`
+
+See a before/after answer:
+
+`docs/before-after.md`
 
 Browse the docs:
 
@@ -285,6 +290,7 @@ If you are about to publish something, use:
 - local-check notes explaining what the checks do and do not prove
 - a one-command local check runner
 - a no-install try-it-now test for comparing guarded and unguarded assistant behavior
+- a before/after example showing the behavior change the guardrails are aiming for
 - a repo tour for time-boxed review paths
 - a repo-health note for checking what the public branch verifies
 - a docs index for finding the right review or feedback path

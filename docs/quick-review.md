@@ -12,6 +12,8 @@ If you only know how much time you have, use `docs/repo-tour.md`.
 
 If you want to know what the public branch checks, use `docs/repo-health.md`.
 
+If you want a concrete before/after example, use `docs/before-after.md`.
+
 ## Fast Path
 
 1. Read `README.md`.

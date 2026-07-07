@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a synthetic before/after guardrail example.
 - Added a maintainer flow for AI-assisted PR review.
 - Added a repo-health note for cold reviewers.
 - Added a check-script index guard for local validation docs.

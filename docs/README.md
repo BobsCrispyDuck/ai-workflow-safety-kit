@@ -14,6 +14,7 @@ Start with the shortest path that matches what you need.
 - `docs/use-cases.md` - where the kit fits in real workflow moments
 - `docs/maintainer-flow.md` - review AI-assisted PRs without private context
 - `docs/try-it-now.md` - no-install test prompt
+- `docs/before-after.md` - fake before/after showing the guardrail effect
 - `docs/quick-review.md` - five-minute review path
 - `docs/review-packet.md` - one clean handoff to send a reviewer
 - `docs/reviewer-brief.md` - one small ask for reviewers
@@ -24,6 +25,7 @@ Start with the shortest path that matches what you need.
 ## Testing The Kit
 
 - `docs/reviewer-prompts.md` - prompts for testing with a coding assistant
+- `docs/before-after.md` - compare an unguarded answer with a guarded answer
 - `docs/reviewer-scorecard.md` - copy/paste scorecard for one small test
 - `docs/eval-scorecard.md` - copy/paste scorecard for one eval scenario
 - `docs/example-result-receipts.md` - examples of good and weak receipts
