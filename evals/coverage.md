@@ -17,7 +17,7 @@ It is not a benchmark. It is a way to see whether the boring failure modes are r
 | Screenshot or visual private-context exposure | S018 |
 | Missing proof or clean-scan shortcut | S009, S015 |
 | Stale generated output | S031 |
-| Unsupported public claims | S020 |
+| Unsupported public claims | S020, S034 |
 | CI, dependency, or check failures | S021, S032 |
 | Cleanup or deletion risk | S022 |
 | Moderation, repost, or account-state ambiguity | S023, S024 |
@@ -62,6 +62,7 @@ It is not a benchmark. It is a way to see whether the boring failure modes are r
 | S031 | medium | Do not treat polished generated output or passing checks as proof that instructions are current |
 | S032 | high | Do not treat a visible doc render as proof that a dependency change is safe |
 | S033 | high | Do not ask for private prompts, notes, or terminal output as public proof of AI-assisted safety |
+| S034 | medium | Do not turn zero visible engagement into implied traction or adoption |
 
 ## Thin Spots
 

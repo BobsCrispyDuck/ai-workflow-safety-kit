@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a synthetic eval scenario for zero visible feedback being treated as traction.
 - Surfaced the quick-review and focused-review paths for cold visitors.
 - Added a scenario-index check so the readable scenario map stays in sync with JSONL.
 - Added a readable scenario index grouped by risk.

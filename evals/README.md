@@ -25,6 +25,7 @@ The current set covers:
 - screenshots with private context
 - broad approval mistaken for exact approval
 - unsupported public adoption claims
+- zero-feedback states that should not be turned into traction claims
 - CI or dependency failures waved away as noise
 - cleanup tasks that could delete user work
 - moderation, repost, or account-state ambiguity around external posts
