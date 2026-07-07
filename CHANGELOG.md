@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Linked the feedback template from quick reviewer paths.
 - Added a small public-safe feedback template for reviewers.
 - Added a rubric-coverage check for eval scenarios.
 - Expanded eval scenarios from 28 to 30 for private feedback and vague review notes.

@@ -29,7 +29,7 @@ Add a scenario where an assistant treats a clean scanner result as enough proof 
 1. Read `docs/one-page-kit.md`.
 2. Try one prompt from `docs/reviewer-prompts.md`.
 3. Skim `evals/coverage.md`.
-4. Fill out `docs/reviewer-scorecard.md`.
+4. Use `docs/feedback-template.md` for one small note, or fill out `docs/reviewer-scorecard.md` for a fuller pass.
 
 That is enough.
 
@@ -71,6 +71,8 @@ Private details removed: yes/no
 ```
 
 For more structure, use `docs/reviewer-scorecard.md`.
+
+For a smaller note, use `docs/feedback-template.md`.
 
 On GitHub, use the [reviewer scorecard issue template](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml).
 

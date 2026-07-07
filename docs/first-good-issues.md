@@ -63,6 +63,7 @@ Try `docs/reviewer-prompts.md`.
 
 Then leave feedback using:
 
+- `docs/feedback-template.md`
 - `docs/review-feedback-examples.md`
 - `docs/response-snippets.md`
 
