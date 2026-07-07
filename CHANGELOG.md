@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Expanded eval scenarios from 28 to 30 for private feedback and vague review notes.
 - Tightened coverage validation for scenario-list ordering.
 - Tightened scenario validation for sequential IDs and unexpected fields.
 - Added AI-assisted PR receipt examples.
