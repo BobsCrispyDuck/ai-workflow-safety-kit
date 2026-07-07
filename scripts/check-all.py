@@ -13,6 +13,7 @@ CHECKS = (
     ("check script index", "check-checks-index.py"),
     ("scenario file", "check-scenarios.py"),
     ("eval coverage", "check-coverage.py"),
+    ("scenario index", "check-scenario-index.py"),
     ("rubric coverage", "check-rubric.py"),
     ("docs index", "check-docs-index.py"),
     ("local doc links", "check-links.py"),

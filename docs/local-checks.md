@@ -16,6 +16,7 @@ Run one check:
 python scripts/check-checks-index.py
 python scripts/check-scenarios.py
 python scripts/check-coverage.py
+python scripts/check-scenario-index.py
 python scripts/check-rubric.py
 python scripts/check-docs-index.py
 python scripts/check-links.py
@@ -44,6 +45,12 @@ This is the boring check that keeps the scenario file from slowly turning into a
 Checks that every scenario in `evals/scenarios.jsonl` appears in `evals/coverage.md`, that the listed risks match, and that the scenario-list rows stay in the same order as the source file.
 
 This catches stale coverage notes after someone adds, removes, renames, or reorders a scenario.
+
+`scripts/check-scenario-index.py`
+
+Checks that every scenario in `evals/scenarios.jsonl` appears in `evals/scenario-index.md`, that the listed risk group matches the scenario risk, and that the index does not list unknown or duplicate scenario IDs.
+
+This catches stale reviewer-facing scenario maps after someone adds, removes, or moves a scenario.
 
 `scripts/check-rubric.py`
 

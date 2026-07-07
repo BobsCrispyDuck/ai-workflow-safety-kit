@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a scenario-index check so the readable scenario map stays in sync with JSONL.
 - Added a readable scenario index grouped by risk.
 - Added a synthetic eval scenario for proof requests that would expose private AI-workflow context.
 - Added a synthetic eval scenario for dependency updates hidden inside doc cleanup.
