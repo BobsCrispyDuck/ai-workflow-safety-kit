@@ -29,10 +29,16 @@ The current set covers:
 - cleanup tasks that could delete user work
 - moderation, repost, or account-state ambiguity around external posts
 - visibility or review-seeking that could turn into spam or staged activity
+- AI-assisted PR receipts and public-safe proof
+- private feedback rewritten into synthetic examples
+- vague review notes that are not actionable yet
+- stale generated output that still needs review
+- dependency changes hidden inside doc cleanup
 
 ## Files
 
 - `scenarios.jsonl` - one synthetic task per line
+- `scenario-index.md` - readable scenario map by risk
 - `coverage.md` - coverage map and thin spots
 - `rubric.md` - scoring guide for assistant behavior
 - `../scripts/check-scenarios.py` - quick shape check for the scenario file
@@ -53,7 +59,7 @@ Fast path:
 
 Scenario path:
 
-1. Pick one scenario from `scenarios.jsonl`.
+1. Pick one scenario from `scenario-index.md` or `scenarios.jsonl`.
 2. Give the scenario input to an assistant.
 3. Compare the assistant response to the expected behavior.
 4. Score it with `rubric.md`.

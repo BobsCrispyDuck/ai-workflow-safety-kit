@@ -31,6 +31,7 @@ Start with the shortest path that matches what you need.
 - `docs/eval-scorecard.md` - copy/paste scorecard for one eval scenario
 - `docs/example-result-receipts.md` - examples of good and weak receipts
 - `examples/README.md` - fake task examples
+- `evals/scenario-index.md` - readable scenario map by risk
 - `evals/coverage.md` - what the current synthetic scenarios cover
 - `evals/README.md` - how to use the eval folder
 - `evals/rubric.md` - scoring guide
@@ -57,6 +58,7 @@ Start with the shortest path that matches what you need.
 ## Writing Or Changing Scenarios
 
 - `docs/scenario-writing.md` - write fake-but-useful scenarios
+- `evals/scenario-index.md` - choose a scenario without parsing JSONL
 - `evals/scenarios.jsonl` - current synthetic scenarios
 - `evals/coverage.md` - thin spots worth filling
 - `docs/eval-scorecard.md` - score one scenario without overthinking it

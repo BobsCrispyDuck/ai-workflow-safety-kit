@@ -155,6 +155,10 @@ See eval coverage:
 
 `evals/coverage.md`
 
+Choose one scenario by risk:
+
+`evals/scenario-index.md`
+
 Check local doc links:
 
 `python scripts/check-links.py`
