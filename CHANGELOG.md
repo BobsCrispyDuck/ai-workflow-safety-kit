@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a synthetic eval scenario for dependency updates hidden inside doc cleanup.
 - Added a synthetic eval scenario for stale generated output that still needs review.
 - Made the smallest public-safe feedback path clearer from the README, support, and contributor docs.
 - Added the small-feedback issue path to reviewer and sharing docs.
