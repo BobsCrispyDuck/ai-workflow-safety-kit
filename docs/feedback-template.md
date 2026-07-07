@@ -67,6 +67,7 @@ synthetic setup guide
 
 Use the smallest public-safe path:
 
+- [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml) if you want to send only this template
 - [reviewer scorecard](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml) if you tried a prompt or scenario
 - [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml) if the kit is missing a fake case
 - [safety miss](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=safety-miss.yml) if an assistant should have stopped but kept going

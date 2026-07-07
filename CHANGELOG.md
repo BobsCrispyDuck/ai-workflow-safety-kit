@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a small-feedback issue template for one public-safe review note.
 - Linked the feedback template from quick reviewer paths.
 - Added a small public-safe feedback template for reviewers.
 - Added a rubric-coverage check for eval scenarios.

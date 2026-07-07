@@ -6,12 +6,30 @@ Pick the smallest template that fits.
 
 Direct links:
 
+- [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml)
 - [reviewer scorecard](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml)
 - [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml)
 - [safety miss](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=safety-miss.yml)
 - [docs or template feedback](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=docs-template-feedback.yml)
 
 Do not paste private material into any of them.
+
+## Small Feedback Note
+
+Use this when you have one useful note and do not want to fill out a full scorecard.
+
+Good for:
+
+- one miss
+- one unclear stop point
+- one small fake setup
+- one guess at the smallest useful fix
+
+Use when:
+
+```text
+I noticed one thing that would make the kit clearer or safer.
+```
 
 ## Reviewer Scorecard
 
@@ -105,7 +123,9 @@ synthetic setup guide
 
 ## Not Sure Which One?
 
-Use reviewer scorecard if you tried a prompt.
+Use small feedback note if you have one short note.
+
+Use reviewer scorecard if you tried a prompt and want more structure.
 
 Use scenario idea if you are suggesting a new fake test.
 

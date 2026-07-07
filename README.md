@@ -46,6 +46,7 @@ Start with `docs/reviewer-brief.md`, use `docs/feedback-template.md`, or open th
 
 Other useful issue paths:
 
+- [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml)
 - [scenario idea](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=scenario-idea.yml)
 - [safety miss](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=safety-miss.yml)
 - [docs or template feedback](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=docs-template-feedback.yml)
