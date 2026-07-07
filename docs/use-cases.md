@@ -117,3 +117,21 @@ This catches the wrong-folder case, but it misses stale branches.
 ```
 
 Turn real stories into fake scenarios before sharing them.
+
+## Reviewing AI-Assisted Contributions
+
+Use when you maintain a repo and a contributor sends AI-assisted work.
+
+Start with:
+
+- `docs/maintainer-flow.md`
+- `.github/PULL_REQUEST_TEMPLATE.md`
+- `templates/verification-receipt.md`
+
+Good fit:
+
+```text
+Before merging this AI-assisted PR, show what changed, what checks ran, and whether examples are synthetic.
+```
+
+The point is not to argue about tool use. The point is to make the contribution small, reviewable, and public-safe.

@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a maintainer flow for AI-assisted PR review.
 - Added a repo-health note for cold reviewers.
 - Added a check-script index guard for local validation docs.
 - Expanded the docs-index check to cover examples, templates, and checklists.

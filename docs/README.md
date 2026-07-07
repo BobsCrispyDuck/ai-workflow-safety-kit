@@ -12,6 +12,7 @@ Start with the shortest path that matches what you need.
 - `docs/copy-into-your-repo.md` - adopt the smallest useful rules in another repo
 - `docs/one-page-kit.md` - copy the core rails on one page
 - `docs/use-cases.md` - where the kit fits in real workflow moments
+- `docs/maintainer-flow.md` - review AI-assisted PRs without private context
 - `docs/try-it-now.md` - no-install test prompt
 - `docs/quick-review.md` - five-minute review path
 - `docs/review-packet.md` - one clean handoff to send a reviewer
@@ -41,6 +42,7 @@ Start with the shortest path that matches what you need.
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note
 - `docs/triage-guide.md` - handle public feedback safely
+- `docs/maintainer-flow.md` - small flow for maintainers reviewing AI-assisted work
 - `docs/maintainer-checklist.md` - turn one review note into one small safe change
 - `docs/first-good-issues.md` - small places to contribute
 - `docs/sharing-guide.md` - share the repo without spammy link drops

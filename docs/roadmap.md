@@ -31,6 +31,7 @@ What has landed:
 - quick review paths, reviewer prompts, and a reviewer scorecard
 - public-safe issue templates and support guidance
 - local checks for scenarios, doc links, and obvious public-surface mistakes
+- maintainer flow for reviewing AI-assisted PRs without private context
 
 Still worth improving:
 

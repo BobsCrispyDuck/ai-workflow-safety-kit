@@ -23,6 +23,7 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | test the kit with an assistant | `docs/try-it-now.md` |
 | send one clean review handoff | `docs/review-packet.md` |
 | leave one useful review note | `docs/reviewer-brief.md` |
+| maintain a repo with AI-assisted PRs | `docs/maintainer-flow.md` |
 | suggest a small public-safe change | `docs/first-good-issues.md` |
 | handle feedback as maintainer | `docs/maintainer-checklist.md` |
 
@@ -249,6 +250,10 @@ Triage public feedback:
 
 `docs/triage-guide.md`
 
+Use it as a maintainer:
+
+`docs/maintainer-flow.md`
+
 Maintain feedback safely:
 
 `docs/maintainer-checklist.md`
@@ -303,6 +308,7 @@ If you are about to publish something, use:
 - a sharing guide for low-noise public posts
 - a review request for asking one relevant person without spam
 - first-good-issue notes for small public-safe contributions
+- a maintainer flow for reviewing AI-assisted PRs without private context
 - false-positive and false-negative guidance for reviewing scanner results
 - known limits so the project does not overclaim
 - a feedback loop for turning public comments into synthetic scenarios
