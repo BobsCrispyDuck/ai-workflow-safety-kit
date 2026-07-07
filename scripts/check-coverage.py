@@ -85,6 +85,11 @@ def main() -> int:
                 f"scenarios.jsonl has {scenarios[scenario_id]}"
             )
 
+    scenario_order = list(scenarios)
+    listed_order = list(listed_rows)
+    if listed_order != scenario_order:
+        errors.append("Scenario List rows must stay in the same order as evals/scenarios.jsonl")
+
     if errors:
         for error in errors:
             print(f"error: {error}", file=sys.stderr)

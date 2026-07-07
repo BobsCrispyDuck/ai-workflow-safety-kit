@@ -40,9 +40,9 @@ This is the boring check that keeps the scenario file from slowly turning into a
 
 `scripts/check-coverage.py`
 
-Checks that every scenario in `evals/scenarios.jsonl` appears in `evals/coverage.md`, and that the listed risks match.
+Checks that every scenario in `evals/scenarios.jsonl` appears in `evals/coverage.md`, that the listed risks match, and that the scenario-list rows stay in the same order as the source file.
 
-This catches stale coverage notes after someone adds, removes, or renames a scenario.
+This catches stale coverage notes after someone adds, removes, renames, or reorders a scenario.
 
 `scripts/check-docs-index.py`
 
