@@ -20,6 +20,8 @@ Before an assistant edits, submits, publishes, or changes settings, it should kn
 | add the kit to an existing repo | `docs/copy-into-your-repo.md` |
 | understand the repo fast | `docs/repo-tour.md` |
 | check current repo health | `docs/repo-health.md` |
+| review it in a few minutes | `docs/quick-review.md` |
+| pick a focused review path | `docs/review-paths.md` |
 | test the kit with an assistant | `docs/try-it-now.md` |
 | see the guardrails change an answer | `docs/before-after.md` |
 | send one clean review handoff | `docs/review-packet.md` |
@@ -42,7 +44,9 @@ Useful notes:
 
 No private logs or transcripts needed. A fake version is better.
 
-Start with `docs/reviewer-brief.md`, use `docs/feedback-template.md`, or open the [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml).
+Start with `docs/quick-review.md` or `docs/review-paths.md`.
+
+If you already know the note, use `docs/feedback-template.md` or open the [small feedback note](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=small-feedback.yml).
 
 If you tried a prompt and want more structure, use the [reviewer scorecard issue template](https://github.com/BobsCrispyDuck/ai-workflow-safety-kit/issues/new?template=reviewer-scorecard.yml).
 

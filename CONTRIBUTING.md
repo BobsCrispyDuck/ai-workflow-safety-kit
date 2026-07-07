@@ -19,6 +19,16 @@ Thanks for helping improve the AI Workflow Safety Kit.
 - examples of approval gates and verification receipts
 - docs that help non-expert users understand what to do next
 
+## Smallest Useful Help
+
+If you only have a few minutes, do one of these:
+
+- try `docs/quick-review.md` and leave one note
+- pick one path from `docs/review-paths.md`
+- choose one tiny task from `docs/first-good-issues.md`
+
+One good sentence is enough if it points to a real miss.
+
 ## Issues
 
 Use the issue templates when possible.
