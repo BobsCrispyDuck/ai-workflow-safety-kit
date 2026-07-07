@@ -41,6 +41,7 @@ Start with the shortest path that matches what you need.
 - `docs/review-packet.md` - send one useful review ask without making it a launch
 - `docs/reviewer-brief.md` - quick note to send with the repo
 - `docs/issue-guide.md` - choose the right public-safe issue template
+- `docs/feedback-template.md` - copy/paste one small public-safe feedback note
 - `docs/review-feedback-examples.md` - useful public-safe feedback examples
 - `docs/response-snippets.md` - short maintainer replies
 - `docs/feedback-loop.md` - turn feedback into a scenario, checklist, or rubric note
