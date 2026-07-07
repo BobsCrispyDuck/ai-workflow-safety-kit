@@ -98,4 +98,6 @@ Share once, then wait.
 
 If nobody responds, improve the repo. Do not immediately repost the same thing somewhere else.
 
+Before writing that people are reviewing, adopting, or sharing it, use `checklists/before-claiming-traction.md`.
+
 For asking one relevant person or small group, use `docs/review-request.md` and `checklists/before-asking-for-review.md`.
