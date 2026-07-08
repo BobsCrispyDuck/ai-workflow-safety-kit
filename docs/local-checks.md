@@ -84,6 +84,7 @@ Checks text files for obvious public-surface mistakes:
 - home-folder paths
 - Windows paths with either backslashes or forward slashes
 - secret-shaped API keys
+- GitHub token-shaped values
 - private-key blocks
 - generated-by-AI or generated-by-ChatGPT style residue
 - internal agent markers

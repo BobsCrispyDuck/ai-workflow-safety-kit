@@ -25,6 +25,14 @@ CHECKS = (
     PatternCheck("unix home path", re.compile(r"/(?:Users|home)/[A-Za-z0-9._-]+/")),
     PatternCheck("secret-looking api key", re.compile(r"s" r"k-[A-Za-z0-9_-]{20,}")),
     PatternCheck(
+        "secret-looking github token",
+        re.compile(r"\b(?:ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9_]{20,}"),
+    ),
+    PatternCheck(
+        "secret-looking github fine-grained token",
+        re.compile(r"\bgithub_pat_[A-Za-z0-9_]{20,}"),
+    ),
+    PatternCheck(
         "private key block",
         re.compile(r"BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY"),
     ),
