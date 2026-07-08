@@ -25,6 +25,10 @@ CHECKS = (
     PatternCheck("unix home path", re.compile(r"/(?:Users|home)/[A-Za-z0-9._-]+/")),
     PatternCheck("secret-looking api key", re.compile(r"s" r"k-[A-Za-z0-9_-]{20,}")),
     PatternCheck(
+        "secret-looking aws access key",
+        re.compile(r"\b(?:AKIA|ASIA)[A-Z0-9]{16}\b"),
+    ),
+    PatternCheck(
         "secret-looking github token",
         re.compile(r"\b(?:ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9_]{20,}"),
     ),

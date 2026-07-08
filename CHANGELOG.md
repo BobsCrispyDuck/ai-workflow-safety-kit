@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added public-surface checks for AWS access-key-shaped values.
 - Added public-surface checks for GitHub token-shaped values.
 - Tightened the public-surface check for Windows paths written with forward slashes.
 - Made the five-minute review path clearer for cold visitors.
