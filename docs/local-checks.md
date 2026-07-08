@@ -82,6 +82,7 @@ Checks text files for obvious public-surface mistakes:
 
 - local machine paths
 - home-folder paths
+- Windows paths with either backslashes or forward slashes
 - secret-shaped API keys
 - private-key blocks
 - generated-by-AI or generated-by-ChatGPT style residue
