@@ -29,6 +29,10 @@ CHECKS = (
         re.compile(r"\b(?:AKIA|ASIA)[A-Z0-9]{16}\b"),
     ),
     PatternCheck(
+        "secret-looking google api key",
+        re.compile(r"\bAIza[A-Za-z0-9_-]{35}\b"),
+    ),
+    PatternCheck(
         "secret-looking github token",
         re.compile(r"\b(?:ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9_]{20,}"),
     ),

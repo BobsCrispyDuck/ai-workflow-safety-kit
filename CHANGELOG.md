@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added public-surface checks for Google API-key-shaped values.
 - Added public-surface checks for AWS access-key-shaped values.
 - Added public-surface checks for GitHub token-shaped values.
 - Tightened the public-surface check for Windows paths written with forward slashes.
