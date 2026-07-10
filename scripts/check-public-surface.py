@@ -23,7 +23,11 @@ CHECKS = (
     PatternCheck("windows absolute path", re.compile(r"\b[A-Za-z]:[\\/]")),
     PatternCheck("cloud sync path", re.compile("One" + "Drive", re.IGNORECASE)),
     PatternCheck("unix home path", re.compile(r"/(?:Users|home)/[A-Za-z0-9._-]+/")),
-    PatternCheck("secret-looking api key", re.compile(r"s" r"k-[A-Za-z0-9_-]{20,}")),
+    PatternCheck(
+        "secret-looking anthropic api key",
+        re.compile(r"\bsk-ant-[A-Za-z0-9_-]{20,}\b"),
+    ),
+    PatternCheck("secret-looking api key", re.compile(r"\bsk-(?!ant-)[A-Za-z0-9_-]{20,}")),
     PatternCheck(
         "secret-looking aws access key",
         re.compile(r"\b(?:AKIA|ASIA)[A-Z0-9]{16}\b"),
