@@ -22,6 +22,14 @@ Stop before publishing, submitting forms, changing account settings, moving keys
 When done, report what changed, what was checked, what was not checked, and what evidence proves the current state.
 ```
 
+If you want a quick smoke check after writing the rule, run:
+
+```text
+python scripts/check-agent-instructions.py path/to/your/repo
+```
+
+The check does not know whether the instructions are good. It only catches the boring miss where the file never mentions root checks, private data, approval gates, or verification receipts at all.
+
 Then point to the files that matter for the current work.
 
 ## For Normal Repo Work

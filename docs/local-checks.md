@@ -13,6 +13,7 @@ python scripts/check-all.py
 Run one check:
 
 ```text
+python scripts/check-agent-instructions.py
 python scripts/check-checks-index.py
 python scripts/check-scenarios.py
 python scripts/check-coverage.py
@@ -25,6 +26,24 @@ python scripts/check-public-surface.py
 ```
 
 ## What The Checks Do
+
+`scripts/check-agent-instructions.py`
+
+Checks common agent instruction files for the four guardrail themes this kit expects to see before an assistant edits a repo:
+
+- project root
+- private data
+- approval gate
+- verification receipt
+
+By default it checks known instruction files in this repo. You can also point it at another repo or one file:
+
+```text
+python scripts/check-agent-instructions.py path/to/repo
+python scripts/check-agent-instructions.py path/to/AGENTS.md
+```
+
+This is a smoke check, not a quality score. It catches missing themes so a repo can fix the boring omission before a coding agent starts work.
 
 `scripts/check-checks-index.py`
 

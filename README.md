@@ -167,6 +167,10 @@ Check local doc links:
 
 `python scripts/check-links.py`
 
+Smoke-check repo-level agent instructions:
+
+`python scripts/check-agent-instructions.py path/to/repo`
+
 Check feedback issue links:
 
 `python scripts/check-issue-links.py`
@@ -299,6 +303,7 @@ If you are about to publish something, use:
 - synthetic examples that show safe, blocked, and approval-needed tasks
 - evaluation scenarios and a rubric for testing assistant behavior
 - an eval coverage map for spotting thin areas
+- a small agent-instruction smoke check for missing root, data, approval, and verification themes
 - a small local check for the synthetic scenario file
 - a small local check for internal doc links
 - a small local check for public feedback issue-template links
