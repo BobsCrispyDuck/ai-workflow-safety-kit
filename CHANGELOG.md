@@ -10,6 +10,8 @@
 
 ## Unreleased
 
+- Compressed the README around a one-minute audit path and added a copyable GitHub Actions integration using the aggregate local check.
+- Added a dependency-free, read-only workflow audit with human and deterministic JSON output, documented exit codes, and six synthetic regression fixtures.
 - Added an approval-boundary receipt check and synthetic completed example.
 - Added an agent-instruction smoke check for repo-level guardrail themes.
 - Added public-surface checks for Anthropic API-key-shaped values.

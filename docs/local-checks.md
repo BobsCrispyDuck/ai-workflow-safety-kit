@@ -13,6 +13,7 @@ python scripts/check-all.py
 Run one check:
 
 ```text
+python tests/test-audit-workflow.py
 python scripts/check-agent-instructions.py
 python scripts/check-approval-receipt.py
 python scripts/check-checks-index.py
@@ -27,6 +28,21 @@ python scripts/check-public-surface.py
 ```
 
 ## What The Checks Do
+
+`scripts/audit-workflow.py`
+
+Runs a read-only smoke audit against a supplied repository and synthesizes the existing agent-instruction theme checks into one human result. Use `--json` for deterministic machine-readable output:
+
+```text
+python scripts/audit-workflow.py path/to/repo
+python scripts/audit-workflow.py --json path/to/repo
+```
+
+Exit code `0` means all four boundaries were detected, `1` means findings, `2` means invalid usage, and `3` means an internal/read error. A passing result does not prove a repository is safe.
+
+`tests/test-audit-workflow.py`
+
+Runs the synthetic regression suite for the unified audit, including a complete pass, no instruction file, and one fixture missing each guardrail boundary. The suite also checks deterministic JSON and the under-one-minute runtime requirement.
 
 `scripts/check-agent-instructions.py`
 

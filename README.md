@@ -4,13 +4,37 @@
 
 Version: v0.1
 
-This kit is for solo builders and small teams using AI coding agents without a whole ops department watching the exits.
+AI coding agents can start work without clear repository, private-data, approval, or verification boundaries. This kit gives solo builders and small teams a small, reviewable way to catch those omissions before work starts.
 
-It is not fancy. It is a set of simple checks for the moments where things usually go sideways.
+## Audit A Repo In One Minute
 
-The core idea:
+The audit is read-only, dependency-free, and uses Python's standard library. From a checkout of this kit, point it at a repository:
 
-Before an assistant edits, submits, publishes, or changes settings, it should know where it is, what data it is touching, whether it has approval, and how it will prove the work is actually done.
+```text
+python scripts/audit-workflow.py path/to/repo
+```
+
+Representative passing result:
+
+```text
+AI workflow audit: pass
+Repository: <resolved repository path>
+Instruction files: AGENTS.md
+Boundaries: 4/4 detected
+- PASS: project root
+- PASS: private data
+- PASS: approval gate
+- PASS: verification receipt
+This smoke audit does not prove the repository is safe.
+```
+
+Add `--json` before the repository path for deterministic machine-readable output. Exit code `0` means all four boundaries were detected, `1` means findings, `2` means invalid usage, and `3` means an internal or read error.
+
+A passing result only means the smoke check found the four expected themes. It does not prove the instructions are good, the evidence is true, or the repository is safe.
+
+To adopt the rules and copy the existing GitHub Actions check, see [`docs/copy-into-your-repo.md`](docs/copy-into-your-repo.md). For every local regression check in this repository, run `python scripts/check-all.py`.
+
+The core habit remains simple: before an assistant edits, submits, publishes, or changes settings, it should know where it is, what data it is touching, whether it has approval, and how it will prove the work is actually done.
 
 ## Pick A Path
 

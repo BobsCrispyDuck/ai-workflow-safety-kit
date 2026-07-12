@@ -25,10 +25,44 @@ When done, report what changed, what was checked, what was not checked, and what
 If you want a quick smoke check after writing the rule, run:
 
 ```text
-python scripts/check-agent-instructions.py path/to/your/repo
+python scripts/audit-workflow.py path/to/your/repo
 ```
 
-The check does not know whether the instructions are good. It only catches the boring miss where the file never mentions root checks, private data, approval gates, or verification receipts at all.
+Use `--json` before the repository path for deterministic machine-readable output. Exit code `0` means all four boundaries were detected, `1` means findings, `2` means invalid usage, and `3` means an internal or read error.
+
+The audit reuses `scripts/check-agent-instructions.py`, so copy both scripts if you are adopting only the command instead of the whole kit. It does not know whether the instructions are good and a pass does not prove the repository is safe. It only catches the boring miss where the file never mentions root checks, private data, approval gates, or verification receipts at all.
+
+## Copy The GitHub Actions Check
+
+If you copy the kit's scripts and tests into the same paths, save this as `.github/workflows/checks.yml`:
+
+```yaml
+name: Local checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Run local checks
+        run: python scripts/check-all.py
+```
+
+This workflow needs no project credentials or third-party Python packages. It runs the same aggregate check used locally; review the included checks before copying them into a different repository.
 
 Then point to the files that matter for the current work.
 
