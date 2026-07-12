@@ -14,6 +14,7 @@ Run one check:
 
 ```text
 python scripts/check-agent-instructions.py
+python scripts/check-approval-receipt.py
 python scripts/check-checks-index.py
 python scripts/check-scenarios.py
 python scripts/check-coverage.py
@@ -44,6 +45,28 @@ python scripts/check-agent-instructions.py path/to/AGENTS.md
 ```
 
 This is a smoke check, not a quality score. It catches missing themes so a repo can fix the boring omission before a coding agent starts work.
+
+`scripts/check-approval-receipt.py`
+
+Checks a completed markdown or text receipt for the review fields that make an AI-assisted action auditable:
+
+- task
+- approved scope
+- changed files
+- checks run
+- result and evidence
+- remaining risk
+- what was not changed or approved
+- next approval
+
+By default it checks the bundled synthetic example. Point it at a completed receipt or a directory of receipt-named files:
+
+```text
+python scripts/check-approval-receipt.py path/to/receipt.md
+python scripts/check-approval-receipt.py path/to/receipts
+```
+
+Use `--allow-empty` to check the field structure of a blank template. The check only confirms that the receipt is populated and reviewable; it does not prove the evidence is true or the action was approved.
 
 `scripts/check-checks-index.py`
 

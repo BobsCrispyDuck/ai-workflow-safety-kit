@@ -8,6 +8,7 @@ They are not real incidents, real logs, or real project notes.
 
 - `examples/safe-public-copy-task.md` - safe local public writing
 - `examples/project-instructions-example.md` - fake filled-in project instructions
+- `examples/approval-boundary-receipt.md` - fake completed approval receipt
 - `examples/wrong-project-root-task.md` - stop before editing the wrong folder
 - `examples/accidental-secret-exposure-task.md` - review secret-like public content
 - `examples/production-approval-task.md` - stop before production-ish action

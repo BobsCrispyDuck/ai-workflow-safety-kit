@@ -82,6 +82,7 @@ Start with the shortest path that matches what you need.
 - `checklists/README.md` - choose the right checklist
 - `docs/local-checks.md` - what the local checks catch and what they do not prove
 - `scripts/check-agent-instructions.py` - smoke-check repo-level agent instructions for the core guardrail themes
+- `scripts/check-approval-receipt.py` - check completed receipts for approval and evidence fields
 
 Core templates live in `templates/`.
 

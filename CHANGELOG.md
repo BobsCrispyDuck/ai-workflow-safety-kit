@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added an approval-boundary receipt check and synthetic completed example.
 - Added an agent-instruction smoke check for repo-level guardrail themes.
 - Added public-surface checks for Anthropic API-key-shaped values.
 - Added public-surface checks for Google API-key-shaped values.

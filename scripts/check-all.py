@@ -10,6 +10,7 @@ from pathlib import Path
 
 CHECKS = (
     ("agent instructions", "check-agent-instructions.py"),
+    ("approval receipt", "check-approval-receipt.py"),
     ("public surface", "check-public-surface.py"),
     ("check script index", "check-checks-index.py"),
     ("scenario file", "check-scenarios.py"),

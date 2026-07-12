@@ -171,6 +171,10 @@ Smoke-check repo-level agent instructions:
 
 `python scripts/check-agent-instructions.py path/to/repo`
 
+Check a completed approval-boundary receipt:
+
+`python scripts/check-approval-receipt.py path/to/receipt.md`
+
 Check feedback issue links:
 
 `python scripts/check-issue-links.py`
@@ -304,6 +308,7 @@ If you are about to publish something, use:
 - evaluation scenarios and a rubric for testing assistant behavior
 - an eval coverage map for spotting thin areas
 - a small agent-instruction smoke check for missing root, data, approval, and verification themes
+- a small receipt check for missing approval, evidence, risk, and exclusion fields
 - a small local check for the synthetic scenario file
 - a small local check for internal doc links
 - a small local check for public feedback issue-template links
