@@ -32,6 +32,18 @@ Add `--json` before the repository path for deterministic machine-readable outpu
 
 A passing result only means the smoke check found the four expected themes. It does not prove the instructions are good, the evidence is true, or the repository is safe.
 
+## Debug Which Codex Instructions Win
+
+If Codex is missing a nested rule or using the wrong file, inspect the modeled project chain from the directory where work starts:
+
+```text
+python scripts/inspect-codex-instructions.py path/to/repo/subdirectory
+```
+
+The command reports the detected project root, selected files in load order, same-directory files hidden by precedence, and any byte-limit truncation. Use `--json` for deterministic output. Pass repeated `--root-marker` or `--fallback` options and `--max-bytes` when your Codex configuration differs from the defaults.
+
+This is a read-only prediction of project-file discovery. It does not read global configuration or claim to show system, developer, session, memory, or other-agent instructions.
+
 To adopt the rules and copy the existing GitHub Actions check, see [`docs/copy-into-your-repo.md`](docs/copy-into-your-repo.md). For every local regression check in this repository, run `python scripts/check-all.py`.
 
 The core habit remains simple: before an assistant edits, submits, publishes, or changes settings, it should know where it is, what data it is touching, whether it has approval, and how it will prove the work is actually done.
@@ -194,6 +206,10 @@ Check local doc links:
 Smoke-check repo-level agent instructions:
 
 `python scripts/check-agent-instructions.py path/to/repo`
+
+Inspect Codex project instruction discovery:
+
+`python scripts/inspect-codex-instructions.py path/to/repo/subdirectory`
 
 Check a completed approval-boundary receipt:
 

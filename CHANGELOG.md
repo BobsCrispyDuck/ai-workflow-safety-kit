@@ -10,6 +10,7 @@
 
 ## Unreleased
 
+- Added a dependency-free Codex project-instruction inspector with deterministic JSON, root and precedence diagnostics, byte-limit reporting, and synthetic regression coverage.
 - Compressed the README around a one-minute audit path and added a copyable GitHub Actions integration using the aggregate local check.
 - Added a dependency-free, read-only workflow audit with human and deterministic JSON output, documented exit codes, and six synthetic regression fixtures.
 - Added an approval-boundary receipt check and synthetic completed example.

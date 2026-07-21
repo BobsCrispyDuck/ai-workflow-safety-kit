@@ -14,6 +14,8 @@ Run one check:
 
 ```text
 python tests/test-audit-workflow.py
+python tests/test-inspect-codex-instructions.py
+python scripts/inspect-codex-instructions.py path/to/repo/subdirectory
 python scripts/check-agent-instructions.py
 python scripts/check-approval-receipt.py
 python scripts/check-checks-index.py
@@ -43,6 +45,22 @@ Exit code `0` means all four boundaries were detected, `1` means findings, `2` m
 `tests/test-audit-workflow.py`
 
 Runs the synthetic regression suite for the unified audit, including a complete pass, no instruction file, and one fixture missing each guardrail boundary. The suite also checks deterministic JSON and the under-one-minute runtime requirement.
+
+`scripts/inspect-codex-instructions.py`
+
+Predicts the Codex project instruction chain for a starting directory. It reports the nearest configured root marker, one selected file per directory in override/base/fallback order, shadowed same-directory files, byte accounting, and truncation:
+
+```text
+python scripts/inspect-codex-instructions.py path/to/repo/subdirectory
+python scripts/inspect-codex-instructions.py --json path/to/repo/subdirectory
+python scripts/inspect-codex-instructions.py --root-marker .git --fallback TEAM_GUIDE.md --max-bytes 32768 path/to/repo/subdirectory
+```
+
+The defaults model Codex with `.git` as the project root marker, no fallback filenames, and a 32 KiB project-document limit. Use `--no-parent-search` to model an empty `project_root_markers` list. The tool reads no global configuration and does not claim to show global, system, developer, session, memory, or other-agent instructions.
+
+`tests/test-inspect-codex-instructions.py`
+
+Builds synthetic temporary repositories and checks root-to-directory order, override and fallback precedence, nested root markers, missing roots, empty selected files, byte-level truncation, exhausted budgets, disabled parent search, and deterministic JSON.
 
 `scripts/check-agent-instructions.py`
 

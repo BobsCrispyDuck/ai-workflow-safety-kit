@@ -10,6 +10,7 @@ from pathlib import Path
 
 CHECKS = (
     ("workflow audit regression", "../tests/test-audit-workflow.py"),
+    ("Codex instruction discovery regression", "../tests/test-inspect-codex-instructions.py"),
     ("agent instructions", "check-agent-instructions.py"),
     ("approval receipt", "check-approval-receipt.py"),
     ("public surface", "check-public-surface.py"),
